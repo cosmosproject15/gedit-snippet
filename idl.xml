@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="idl">
+  <snippet>
+    <tag>exc</tag>
+    <description>Exception</description>
+    <text><![CDATA[exception ${1:name}
+{
+	$0
+};
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>if</tag>
+    <description>Interface</description>
+    <text><![CDATA[interface ${1:name}
+{
+	$0
+};
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>mod</tag>
+    <description>Module</description>
+    <text><![CDATA[module ${1:name}
+{
+	$0
+};
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>seq</tag>
+    <description>Sequence</description>
+    <text><![CDATA[sequence<${1:type}> ]]></text>
+  </snippet>
+  <snippet>
+    <tag>str</tag>
+    <description>Struct</description>
+    <text><![CDATA[struct ${1:name}
+{
+	$0
+};
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>tseq</tag>
+    <description>Typedef Sequence</description>
+    <text><![CDATA[typedef sequence<${1:type}> ${0:newtype};]]></text>
+  </snippet>
+</snippets>

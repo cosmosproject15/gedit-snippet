@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets>
+  <snippet>
+    <tag>lic</tag>
+    <description>license</description>
+    <text><![CDATA[###################################################################################################
+# Copyright: Name <email> 							  						  #	
+# License: 															  		  #
+## Homepage : 																  #
+###################################################################################################
+$0]]></text>
+  </snippet>
+</snippets>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="xslt">
+  <snippet>
+    <tag>applyimp</tag>
+    <description>Apply Imports</description>
+    <text><![CDATA[<xsl:apply-imports/>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>applyt</tag>
+    <description>Apply Templates</description>
+    <text><![CDATA[<xsl:apply-templates mode="$1" select="$2"/>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>attr</tag>
+    <description>Attribute</description>
+    <text><![CDATA[<xsl:attribute name="$1">$2</xsl:attribute>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>call</tag>
+    <description>Call Template</description>
+    <text><![CDATA[<xsl:call-template name="$1"/>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>choose</tag>
+    <description>Choose</description>
+    <text><![CDATA[<xsl:choose>
+	<xsl:when test="$1">
+		$2
+	</xsl:when>
+	$3
+</xsl:choose>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>comment</tag>
+    <description>Comment</description>
+    <text><![CDATA[<xsl:comment>${1:$GEDIT_SELECTED_TEXT}</xsl:comment>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>elem</tag>
+    <description>Element</description>
+    <text><![CDATA[<xsl:element name="$1">
+</xsl:element>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>if</tag>
+    <description>If</description>
+    <text><![CDATA[<xsl:if test="$1">
+	$2
+</xsl:if>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>imp</tag>
+    <description>Import</description>
+    <text><![CDATA[<xsl:import href="$1"/>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>inc</tag>
+    <description>Include</description>
+    <text><![CDATA[<xsl:include href="$1"/>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>otherwise</tag>
+    <description>Otherwise</description>
+    <text><![CDATA[<xsl:otherwise>
+	$1
+</xsl:otherwise>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>param</tag>
+    <description>Parameter</description>
+    <text><![CDATA[<xsl:param name="$1"/>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>stylesheet</tag>
+    <description>StyleSheet</description>
+    <text><![CDATA[<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+$0
+</xsl:stylesheet>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>templ</tag>
+    <description>Template</description>
+    <text><![CDATA[<xsl:template ${1:[match,name]}="$2" ${3:mode=""}>
+	$0
+</xsl:template>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>Text</description>
+    <text><![CDATA[<xsl:text>${1:$GEDIT_SELECTED_TEXT}</xsl:text>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>val</tag>
+    <description>Value of</description>
+    <text><![CDATA[<xsl:value-of select="$1"/>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>var</tag>
+    <description>Variable</description>
+    <text><![CDATA[<xsl:variable name="$1">
+	$0
+</xsl:variable>
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>var</tag>
+    <description>Variable with Select Attribute</description>
+    <text><![CDATA[<xsl:variable name="$1" select="$2"/>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>when</tag>
+    <description>When</description>
+    <text><![CDATA[<xsl:when test="$1">
+	$2
+</xsl:when>
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>with</tag>
+    <description>With Param</description>
+    <text><![CDATA[<xsl:with-param name="$1">
+	$2
+</xsl:with-param>
+$0]]></text>
+  </snippet>
+</snippets>

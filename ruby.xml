@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="ruby">
+  <snippet>
+    <tag>begin</tag>
+    <description>begin .. rescue .. end</description>
+    <text><![CDATA[begin
+	$1
+rescue ${2:Exception} => ${3:e}
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>case</tag>
+    <description>case .. end</description>
+    <text><![CDATA[case ${1:object}
+	when ${2:condition}
+		$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>class</tag>
+    <description>class .. end</description>
+    <text><![CDATA[class ${1:class_name}
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>collect</tag>
+    <description>collect element</description>
+    <text><![CDATA[collect { |${1:element}| ${1:element}.$0 }]]></text>
+  </snippet>
+  <snippet>
+    <tag>collecto</tag>
+    <description>collect element do</description>
+    <text><![CDATA[collect do |${1:element}|
+	${1:element}.$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>def</tag>
+    <description>def .. end</description>
+    <text><![CDATA[def ${1:method_name}
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>do</tag>
+    <description>do .. end</description>
+    <text><![CDATA[do
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>doo</tag>
+    <description>do |object| .. end</description>
+    <text><![CDATA[do |${1:object}|
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>each</tag>
+    <description>each element</description>
+    <text><![CDATA[each { |${1:element}| ${1:element}.$0 }]]></text>
+  </snippet>
+  <snippet>
+    <tag>eacho</tag>
+    <description>each element do</description>
+    <text><![CDATA[each do |${1:element}|
+	${1:element}.$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>eachwithindex</tag>
+    <description>each_with_index</description>
+    <text><![CDATA[each_with_index { |${1:element}, ${2:idx}| ${1:element}.$0 }]]></text>
+  </snippet>
+  <snippet>
+    <tag>eachwithindexo</tag>
+    <description>each_with_index do</description>
+    <text><![CDATA[each_with_index do |${1:element}, ${2:idx}|
+	${1:element}.$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>forin</tag>
+    <description>for .. in .. end</description>
+    <text><![CDATA[for ${1:element} in ${2:collection}
+	${1:element}.$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>:</tag>
+    <description>hash pair</description>
+    <text><![CDATA[:${1:key} => ${2:"value"}${3:, }]]></text>
+  </snippet>
+  <snippet>
+    <description>hash pointer</description>
+    <accelerator><![CDATA[<Shift><Alt>l]]></accelerator>
+    <text><![CDATA[ => ]]></text>
+  </snippet>
+  <snippet>
+    <tag>ife</tag>
+    <description>if .. else .. end</description>
+    <text><![CDATA[if ${1:condition}
+	$2
+else
+	$3
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>if</tag>
+    <description>if .. end</description>
+    <text><![CDATA[if ${1:condition}
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>inject</tag>
+    <description>inject object</description>
+    <text><![CDATA[inject(${1:object}) { |${2:injection}, ${3:element}| $0 }]]></text>
+  </snippet>
+  <snippet>
+    <tag>injecto</tag>
+    <description>inject object do</description>
+    <text><![CDATA[inject(${1:object}) do |${2:injection}, ${3:element}|
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>reject</tag>
+    <description>reject element</description>
+    <text><![CDATA[reject { |${1:element}| ${1:element}.$0 }]]></text>
+  </snippet>
+  <snippet>
+    <tag>rejecto</tag>
+    <description>reject element do</description>
+    <text><![CDATA[reject do |${1:element}|
+	${1:element}.$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>select</tag>
+    <description>select element</description>
+    <text><![CDATA[select { |${1:element}| ${1:element}.$0 }]]></text>
+  </snippet>
+  <snippet>
+    <tag>selecto</tag>
+    <description>select element do</description>
+    <text><![CDATA[select do |${1:element}|
+	${1:element}.$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>unless</tag>
+    <description>unless</description>
+    <text><![CDATA[unless ${1:condition}
+	$0
+end]]></text>
+  </snippet>
+  <snippet>
+    <tag>when</tag>
+    <description>when</description>
+    <text><![CDATA[when ${1:condition}
+	$0]]></text>
+  </snippet>
+</snippets>

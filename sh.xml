@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="sh">
+  <snippet>
+    <tag>#</tag>
+    <description>#!/bin/bash</description>
+    <text><![CDATA[#!/bin/bash
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>sh</tag>
+    <description>#!/bin/sh</description>
+    <text><![CDATA[#!/bin/sh
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>case</tag>
+    <description>case ..</description>
+    <text><![CDATA[case ${1:choice} in
+${2:first})
+	$3
+	;;
+*)
+	$4
+	;;
+esac]]></text>
+  </snippet>
+  <snippet>
+    <tag>c</tag>
+    <description>cat</description>
+    <text><![CDATA[cat $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>e</tag>
+    <description>echo</description>
+    <text><![CDATA[echo "$0"]]></text>
+  </snippet>
+  <snippet>
+    <tag>elif</tag>
+    <description>elif ..</description>
+    <text><![CDATA[elif [[ ${1:condition} ]]; then
+	$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>for</tag>
+    <description>for .. done</description>
+    <text><![CDATA[for (( ${1:i = 0}; ${2:i < 10}; ${3:i++} )); do
+	$0
+done]]></text>
+  </snippet>
+  <snippet>
+    <tag>if</tag>
+    <description>if .. then</description>
+    <text><![CDATA[if [ $0 ]; then
+	
+fi]]></text>
+  </snippet>
+  <snippet>
+    <tag>r</tag>
+    <description>input</description>
+    <text><![CDATA[read -n 1 -p "$ [y/N]:" $0 ]]></text>
+  </snippet>
+  <snippet>
+    <tag>s</tag>
+    <description>sed</description>
+    <text><![CDATA[sed -i 's/$0/ /g' $file]]></text>
+  </snippet>
+  <snippet>
+    <tag>w</tag>
+    <description>while</description>
+    <text><![CDATA[while [ : ]; do
+$0
+done
+]]></text>
+  </snippet>
+</snippets>

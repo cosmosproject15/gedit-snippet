@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="python">
+  <snippet>
+    <tag>#</tag>
+    <description>#!/usr/bin/env python</description>
+    <text><![CDATA[#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+$0]]></text>
+  </snippet>
+  <snippet>
+    <description>Inside String: Insert "…"</description>
+    <accelerator><![CDATA[<Primary>2]]></accelerator>
+    <text><![CDATA["${1:$GEDIT_SELECTED_TEXT}"]]></text>
+  </snippet>
+  <snippet>
+    <description>Inside String: Insert '…'</description>
+    <accelerator><![CDATA[<Primary>apostrophe]]></accelerator>
+    <text><![CDATA['${1:$GEDIT_SELECTED_TEXT}']]></text>
+  </snippet>
+  <snippet>
+    <tag>class</tag>
+    <description>New Class</description>
+    <text><![CDATA[class ${1:ClassName} (${2:object}):
+
+	def __init__(self${3:,}):
+		${4:pass}
+
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>def</tag>
+    <description>New Function</description>
+    <text><![CDATA[def ${1:fname}(${2:self}):
+	${3:pass}]]></text>
+  </snippet>
+  <snippet>
+    <tag>get</tag>
+    <description>New Get Method</description>
+    <text><![CDATA[def get$1(self): return self._$1]]></text>
+  </snippet>
+  <snippet>
+    <tag>set</tag>
+    <description>New Set Method</description>
+    <text><![CDATA[def set$1(self, ${2:newValue}): self._$1 = $2]]></text>
+  </snippet>
+  <snippet>
+    <tag>try</tag>
+    <description>Try... Except</description>
+    <text><![CDATA[try:
+	$1
+except ${2:Error}:
+	$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>#</tag>
+    <description>coding</description>
+    <text><![CDATA[#-*- coding:utf-8 -*-
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>doc</tag>
+    <description>doc string</description>
+    <text><![CDATA["""
+	$1
+"""
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>elif</tag>
+    <description>elif</description>
+    <text><![CDATA[elif ${1:condition}:
+	$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>else</tag>
+    <description>else</description>
+    <text><![CDATA[else:
+	$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>for</tag>
+    <description>for loop</description>
+    <text><![CDATA[for ${1:i} in ${2:xrange}(${3:count}):
+	$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>from</tag>
+    <description>from</description>
+    <text><![CDATA[from $1 import $2
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>if</tag>
+    <description>if</description>
+    <text><![CDATA[if ${1:condition}:
+	$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>main</tag>
+    <description>main</description>
+    <text><![CDATA[if __name__ == '__main__':
+	${1:sys.exit(main())}
+
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>p</tag>
+    <description>print</description>
+    <text><![CDATA[print($0)]]></text>
+  </snippet>
+  <snippet>
+    <tag>.</tag>
+    <description>self</description>
+    <text><![CDATA[self.]]></text>
+  </snippet>
+  <snippet>
+    <tag>s</tag>
+    <description>sys.argv</description>
+    <text><![CDATA[sys.argv[$0]]]></text>
+  </snippet>
+  <snippet>
+    <tag>while</tag>
+    <description>while loop</description>
+    <text><![CDATA[while ${1:condition}:
+	$0]]></text>
+  </snippet>
+</snippets>

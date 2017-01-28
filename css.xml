@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="css">
+  <snippet>
+    <tag>background</tag>
+    <description>background-attachment: scroll/fixed</description>
+    <text><![CDATA[background-attachment: ${1:scroll/fixed};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-color: color-hex</description>
+    <text><![CDATA[background-color: #${1:DDD};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-color: color-name</description>
+    <text><![CDATA[background-color: ${1:red};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-color: color-rgb</description>
+    <text><![CDATA[background-color: rgb(${1:255},${2:255},${3:255});
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-color: transparent</description>
+    <text><![CDATA[background-color: transparent;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-image: none</description>
+    <text><![CDATA[background-image: none;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-image: url</description>
+    <text><![CDATA[background-image: url($1);
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-position: position</description>
+    <text><![CDATA[background-position: ${1:top letft/top center/top right/center left/center center/center right/bottom left/bottom center/bottom right/x-% y-%/x-pos y-pos};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background-repeat: r/r-x/r-y/n-r</description>
+    <text><![CDATA[background-repeat: ${1:repeat/repeat-x/repeat-y/no-repeat};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>background</tag>
+    <description>background: color image repeat attachment position</description>
+    <text><![CDATA[background: #${1:DDD} url($2) ${3:repeat/repeat-x/repeat-y/no-repeat} ${4:scroll/fixed} ${5:top letft/top center/top right/center left/center center/center right/bottom left/bottom center/bottom right/x-% y-%/x-pos y-pos};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-bottom-color: size style color</description>
+    <text><![CDATA[border-bottom-color: #${1:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-bottom-style: size style color</description>
+    <text><![CDATA[border-bottom-style: ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-bottom-width: size style color</description>
+    <text><![CDATA[border-bottom-width: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-bottom: size style color</description>
+    <text><![CDATA[border-bottom: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-color: color</description>
+    <text><![CDATA[border-color: ${1:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-left-color: color</description>
+    <text><![CDATA[border-right-color: #${1:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-left-style: style</description>
+    <text><![CDATA[border-left-style: ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-left-width: size</description>
+    <text><![CDATA[border-left-width: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-left: size style color</description>
+    <text><![CDATA[border-left: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-right-color: color</description>
+    <text><![CDATA[border-right-color: #${1:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-right-style: style</description>
+    <text><![CDATA[border-right-style: ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-right-width: size</description>
+    <text><![CDATA[border-right-width: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-right: size style color</description>
+    <text><![CDATA[border-right: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-style: style</description>
+    <text><![CDATA[border-style: ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-top-color: color</description>
+    <text><![CDATA[border-top-color: #${1:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-top-style: style</description>
+    <text><![CDATA[border-top-style: ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-top-width: size</description>
+    <text><![CDATA[border-top-width: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-top: size style color</description>
+    <text><![CDATA[border-top: ${1:1}px ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border-width: width</description>
+    <text><![CDATA[border-color: ${1:1px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>border</tag>
+    <description>border: size style color</description>
+    <text><![CDATA[border: ${1:1px} ${2:solid} #${3:999};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>clear</tag>
+    <description>clear: value</description>
+    <text><![CDATA[clear: ${1:left/right/both/none};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>color</tag>
+    <description>color: color-hex</description>
+    <text><![CDATA[color: #${1:DDD};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>color</tag>
+    <description>color: color-name</description>
+    <text><![CDATA[color: ${1:red};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>color</tag>
+    <description>color: color-rgb</description>
+    <text><![CDATA[color: rgb(${1:255},${2:255},${3:255});
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>cursor</tag>
+    <description>cursor: type</description>
+    <text><![CDATA[cursor: {$1:default/auto/crosshair/pointer/move/*-resize/text/wait/help};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>clear</tag>
+    <description>cursor: url</description>
+    <text><![CDATA[cursor: url($1);
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>direction</tag>
+    <description>direction: ltr|rtl</description>
+    <text><![CDATA[direction: ${1:ltr|rtl};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>display</tag>
+    <description>display: block</description>
+    <text><![CDATA[display: block;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>display</tag>
+    <description>display: common-types</description>
+    <text><![CDATA[display: ${1:none/inline/block/list-item/run-in/compact/marker};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>display</tag>
+    <description>display: inline</description>
+    <text><![CDATA[display: inline;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>display</tag>
+    <description>display: table-types</description>
+    <text><![CDATA[display: ${1:table/inline-table/table-row-group/table-header-group/table-footer-group/table-row/table-column-group/table-column/table-cell/table-caption};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>float</tag>
+    <description>float: left/right/none</description>
+    <text><![CDATA[float: ${1:left/right/none};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>font</tag>
+    <description>font-family: family</description>
+    <text><![CDATA[font-family: ${1:Arial, "MS Trebuchet"}, ${2:sans-}serif;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>font</tag>
+    <description>font-size: size</description>
+    <text><![CDATA[font-size: ${1:100%};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>font</tag>
+    <description>font-style: normal/italic/oblique</description>
+    <text><![CDATA[font-style: ${1:normal/italic/oblique};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>font</tag>
+    <description>font-variant: normal/small-caps</description>
+    <text><![CDATA[font-variant: ${1:normal/small-caps};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>font</tag>
+    <description>font-weight: weight</description>
+    <text><![CDATA[font-weight: ${1:normal/bold};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>font</tag>
+    <description>font: size font</description>
+    <text><![CDATA[font: ${1:75%} ${2:"Lucida Grande", "Trebuchet MS", Verdana,} ${3:sans-}serif;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>font</tag>
+    <description>font: style variant weight size/line-height font-family</description>
+    <text><![CDATA[font: ${1:normal/italic/oblique} ${2:normal/small-caps} ${3:normal/bold} ${4:1em/1.5em} ${5:Arial}, ${6:sans-}serif;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>letter</tag>
+    <description>letter-spacing: length-em</description>
+    <text><![CDATA[letter-spacing: $1em;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>letter</tag>
+    <description>letter-spacing: length-px</description>
+    <text><![CDATA[letter-spacing: $1px;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style-image: url</description>
+    <text><![CDATA[list-style-image: url($1);
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style-position: pos</description>
+    <text><![CDATA[list-style-position: ${1:inside/outside};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style-type: asian</description>
+    <text><![CDATA[list-style-type: ${1:cjk-ideographic/hiragana/katakana/hiragana-iroha/katakana-iroha};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style-type: marker</description>
+    <text><![CDATA[list-style-type: ${1:none/disc/circle/square};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style-type: numeric</description>
+    <text><![CDATA[list-style-type: ${1:decimal/decimal-leading-zero/zero};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style-type: other</description>
+    <text><![CDATA[list-style-type: ${1:hebrew/armenian/georgian};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style-type: roman-alpha-greek</description>
+    <text><![CDATA[list-style-type: ${1:lower-roman/uppert-roman/lower-alpha/upper-alpha/lower-greek/lower-latin/upper-latin};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>list</tag>
+    <description>list-style: type position image</description>
+    <text><![CDATA[list-style: ${1:none/disc/circle/square/decimal/zero} ${2:inside/outside} url($3);
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>margin-bottom: length</description>
+    <text><![CDATA[margin-bottom: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>margin-left: length</description>
+    <text><![CDATA[margin-left: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>margin-right: length</description>
+    <text><![CDATA[margin-right: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>margin-top: length</description>
+    <text><![CDATA[margin-top: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>margin: T R B L</description>
+    <text><![CDATA[margin: ${1:20px} ${2:0px} ${3:40px} ${4:0px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>margin: V H</description>
+    <text><![CDATA[margin: ${1:20px} ${2:0px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>margin: all</description>
+    <text><![CDATA[margin: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>marker</tag>
+    <description>marker-offset: auto</description>
+    <text><![CDATA[marker-offset: auto;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>marker</tag>
+    <description>marker-offset: length</description>
+    <text><![CDATA[marker-offset: ${1:10px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>overflow</tag>
+    <description>overflow: type</description>
+    <text><![CDATA[overflow: ${1:visible/hidden/scroll/auto};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>padding-bottom: length</description>
+    <text><![CDATA[padding-bottom: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>padding-left: length</description>
+    <text><![CDATA[padding-left: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>padding-right: length</description>
+    <text><![CDATA[padding-right: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>margin</tag>
+    <description>padding-top: length</description>
+    <text><![CDATA[padding-top: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>padding</tag>
+    <description>padding: T R B L</description>
+    <text><![CDATA[padding: ${1:20px} ${2:0px} ${3:40px} ${4:0px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>padding</tag>
+    <description>padding: V H</description>
+    <text><![CDATA[padding: ${1:20px} ${2:0px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>padding</tag>
+    <description>padding: all</description>
+    <text><![CDATA[padding: ${1:20px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>position</tag>
+    <description>position: type</description>
+    <text><![CDATA[position: ${1:static/relative/absolute/fixed};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>{</tag>
+    <description>properties { }</description>
+    <text><![CDATA[{
+	/* $1 */
+	$0
+]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-align: left/center/right</description>
+    <text><![CDATA[text-align: ${1:left/right/center/justify};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-decoration: none/underline/overline/line-through/blink</description>
+    <text><![CDATA[text-decoration: ${1:none/underline/overline/line-through/blink};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-indent: length</description>
+    <text><![CDATA[text-indent: ${1:10p}x;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-shadow: color-hex x y blur</description>
+    <text><![CDATA[text-shadow:  #${1:DDD} ${2:10px} ${3:10px} ${4:2px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-shadow: color-rgb x y blur</description>
+    <text><![CDATA[text-shadow:  rgb(${1:255},${2:255},${3:255}) ${4:10px} ${5:10px} ${6:2px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-shadow: none</description>
+    <text><![CDATA[text-shadow: none;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-transform: capitalize/upper/lower</description>
+    <text><![CDATA[text-transform: ${1:capitalize/uppercase/lowercase};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>text</tag>
+    <description>text-transform: none</description>
+    <text><![CDATA[text-transform: none;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>vertical</tag>
+    <description>vertical-align: type</description>
+    <text><![CDATA[vertical-align: ${1:baseline/sub/super/top/text-top/middle/bottom/text-bottom/length/%};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>visibility</tag>
+    <description>visibility: type</description>
+    <text><![CDATA[visibility: ${1:visible/hidden/collapse};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>white</tag>
+    <description>white-space: normal/pre/nowrap</description>
+    <text><![CDATA[white-space: ${1:normal/pre/nowrap};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>word</tag>
+    <description>word-spacing: length</description>
+    <text><![CDATA[word-spacing: ${1:10px};
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>word</tag>
+    <description>word-spacing: normal</description>
+    <text><![CDATA[word-spacing: normal;
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>z</tag>
+    <description>z-index: index</description>
+    <text><![CDATA[z-index: $1;
+$0]]></text>
+  </snippet>
+</snippets>

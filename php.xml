@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="php">
+  <snippet>
+    <tag>iff</tag>
+    <description>$.. =</description>
+    <text><![CDATA[$${1:retVal} = (${2:condition}) ? ${3:a} : ${4:b};]]></text>
+  </snippet>
+  <snippet>
+    <tag>array</tag>
+    <description>$.. = array</description>
+    <text><![CDATA[$${1:arrayName} = array('$2'${3:,});]]></text>
+  </snippet>
+  <snippet>
+    <tag>globals</tag>
+    <description>$GLOBALS['..']</description>
+    <text><![CDATA[\$GLOBALS['${1:variable}']${2: =} ${3:something} ${4:;}]]></text>
+  </snippet>
+  <snippet>
+    <tag>php</tag>
+    <description>&lt;?php .. ?&gt;</description>
+    <text><![CDATA[<?php
+
+	$0
+
+?>]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>COOKIE['..']</description>
+    <text><![CDATA[\$_COOKIE['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>ENV['..']</description>
+    <text><![CDATA[\$_ENV['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>FILES['..']</description>
+    <text><![CDATA[\$_FILES['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>GET['..']</description>
+    <text><![CDATA[\$_GET['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>POST['..']</description>
+    <text><![CDATA[\$_POST['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>REQUEST['..']</description>
+    <text><![CDATA[\$_REQUEST['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>SERVER['..']</description>
+    <text><![CDATA[\$_SERVER['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>$</tag>
+    <description>SESSION['..']</description>
+    <text><![CDATA[\$_SESSION['${1:variable}']]]></text>
+  </snippet>
+  <snippet>
+    <tag>case</tag>
+    <description>case ..</description>
+    <text><![CDATA[case '${1:variable}':
+	# code...
+	$0
+break;]]></text>
+  </snippet>
+  <snippet>
+    <tag>class</tag>
+    <description>class ..</description>
+    <text><![CDATA[#doc
+#	classname:	${1:ClassName}
+#	scope:		${2:PUBLIC}
+#
+#/doc
+
+class ${1:ClassName} ${3:extends AnotherClass}
+{
+	#	internal variables
+
+	#	Constructor
+	function __construct (${4:argument})
+	{
+		# code...
+		$0
+	}
+	###
+
+}
+###]]></text>
+  </snippet>
+  <snippet>
+    <tag>do</tag>
+    <description>do .. while ..</description>
+    <text><![CDATA[do
+{
+	# code...
+	$0
+} while (${1:$a <= 10});]]></text>
+  </snippet>
+  <snippet>
+    <tag>else</tag>
+    <description>else ..</description>
+    <text><![CDATA[else
+{
+	# code...
+	$0
+}]]></text>
+  </snippet>
+  <snippet>
+    <tag>elseif</tag>
+    <description>elseif ..</description>
+    <text><![CDATA[elseif (${1:condition})
+{
+	# code...
+	$0
+}]]></text>
+  </snippet>
+  <snippet>
+    <tag>for</tag>
+    <description>for ..</description>
+    <text><![CDATA[for ($${1:i} = ${2:0}; $${1:i} < $3; $${1:i}++)
+{
+	# code...
+	$0
+}]]></text>
+  </snippet>
+  <snippet>
+    <tag>foreach</tag>
+    <description>foreach ..</description>
+    <text><![CDATA[foreach ($${1:variable} as $${2:key} => $${3:value})
+{
+	# code...
+	$0:
+}]]></text>
+  </snippet>
+  <snippet>
+    <tag>function</tag>
+    <description>function ..</description>
+    <text><![CDATA[${1:public }function ${2:FunctionName}($3)
+{
+	${0:# code...}
+}]]></text>
+  </snippet>
+  <snippet>
+    <tag>if</tag>
+    <description>if ..</description>
+    <text><![CDATA[if (${1:condition})
+{
+	# code...
+	$0
+}]]></text>
+  </snippet>
+  <snippet>
+    <tag>ifelse</tag>
+    <description>if .. else ..</description>
+    <text><![CDATA[if (${1:condition})
+{
+	${2:# code...}
+}
+else
+{
+	${3:# code...}
+}
+$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>incl</tag>
+    <description>include</description>
+    <text><![CDATA[include('${1:file}');$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>inclo</tag>
+    <description>include_once</description>
+    <text><![CDATA[include_once('${1:file}');$0]]></text>
+  </snippet>
+  <snippet>
+    <tag>print</tag>
+    <description>print ".."</description>
+    <text><![CDATA[print "${1:string}"${2: . };]]></text>
+  </snippet>
+  <snippet>
+    <tag>req</tag>
+    <description>require</description>
+    <text><![CDATA[require('${1:file}');]]></text>
+  </snippet>
+  <snippet>
+    <tag>reqo</tag>
+    <description>require_once</description>
+    <text><![CDATA[require_once('${1:file}');]]></text>
+  </snippet>
+  <snippet>
+    <tag>switch</tag>
+    <description>switch ..</description>
+    <text><![CDATA[switch (${1:variable})
+{
+	case '${2:value}':
+		${3:# code...}
+	break;
+
+	$0
+
+	default:
+		${4:# code...}
+	break;
+}]]></text>
+  </snippet>
+  <snippet>
+    <tag>while</tag>
+    <description>while ..</description>
+    <text><![CDATA[while (${1:$a <= 10})
+{
+	# code...
+	$0
+}]]></text>
+  </snippet>
+</snippets>

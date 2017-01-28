@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="fortran">
+  <snippet>
+    <tag>c</tag>
+    <description>character</description>
+    <text><![CDATA[character(len=${1:10}) :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>cl</tag>
+    <description>close</description>
+    <text><![CDATA[close(${1:unit}, status='${2:keep}')]]></text>
+  </snippet>
+  <snippet>
+    <tag>do</tag>
+    <description>do ... end do</description>
+    <text><![CDATA[do ${1:i}=$2, $3, ${4:1}
+	${0:source}
+end do]]></text>
+  </snippet>
+  <snippet>
+    <tag>func</tag>
+    <description>function</description>
+    <text><![CDATA[function ${1:name}( ${2:parameter} )
+	${3:integer/real ::} $1
+	${4:integer/real ::} $2
+
+	${0:source}
+
+	$1 = 	!result
+end function]]></text>
+  </snippet>
+  <snippet>
+    <tag>ifel</tag>
+    <description>if ... else ... end if</description>
+    <text><![CDATA[if( $1 ) then
+	${2:source}
+else
+	${0:source}
+end if]]></text>
+  </snippet>
+  <snippet>
+    <tag>if</tag>
+    <description>if ... end if</description>
+    <text><![CDATA[if( $1 ) then
+	${0:source}
+end if]]></text>
+  </snippet>
+  <snippet>
+    <tag>i</tag>
+    <description>integer</description>
+    <text><![CDATA[integer(kind=${1:4}) :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>id</tag>
+    <description>integerdim</description>
+    <text><![CDATA[integer(kind=${1:4}), dimension(${2::}) :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>ida</tag>
+    <description>integerdimalloc</description>
+    <text><![CDATA[integer(kind=${1:4}), dimension(${2::}), allocatable :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>l</tag>
+    <description>logical</description>
+    <text><![CDATA[logical(kind=${1:1}) :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>mod</tag>
+    <description>module</description>
+    <text><![CDATA[module ${1:name}
+	implicit none
+	${2:integer/real ::} $3
+
+	${4:contains}
+
+	${0:source}
+end module]]></text>
+  </snippet>
+  <snippet>
+    <tag>op</tag>
+    <description>open</description>
+    <text><![CDATA[open(${1:unit}, file='${2:name}', status='${3:new}')]]></text>
+  </snippet>
+  <snippet>
+    <tag>prog</tag>
+    <description>program</description>
+    <text><![CDATA[program ${1:name}
+	implicit none
+
+	${0:source}
+end program]]></text>
+  </snippet>
+  <snippet>
+    <tag>re</tag>
+    <description>read</description>
+    <text><![CDATA[read(unit=${1:*},fmt=${2:*}) $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>r</tag>
+    <description>real</description>
+    <text><![CDATA[real(kind=${1:8}) :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>rd</tag>
+    <description>realdim</description>
+    <text><![CDATA[real(kind=${1:8}), dimension(${2::}) :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>rda</tag>
+    <description>realdimalloc</description>
+    <text><![CDATA[real(kind=${1:8}), dimension(${2::}), allocatable :: $0]]></text>
+  </snippet>
+  <snippet>
+    <tag>rec</tag>
+    <description>recursivfunc</description>
+    <text><![CDATA[recursive function ${1:name}( ${2:parameter} ) result( ${3:res} )
+	${4:integer/real ::} $3
+	${5:integer/real ::} $2
+
+	${0:source}
+
+	$3 = 	!result
+end function]]></text>
+  </snippet>
+  <snippet>
+    <tag>sel</tag>
+    <description>select</description>
+    <text><![CDATA[select case( $1 )
+	case( $2 )
+		${3:source}
+	case default
+		${0:source}
+end select]]></text>
+  </snippet>
+  <snippet>
+    <tag>sub</tag>
+    <description>subroutine</description>
+    <text><![CDATA[subroutine ${1:name}( ${2:parameter} )
+	${3:integer/real ::} $2
+
+	${0:source}
+end subroutine]]></text>
+  </snippet>
+  <snippet>
+    <tag>t</tag>
+    <description>type</description>
+    <text><![CDATA[type :: ${1:name}
+	${2:integer/real ::} $0
+end type $1]]></text>
+  </snippet>
+  <snippet>
+    <tag>dow</tag>
+    <description>while</description>
+    <text><![CDATA[do while( ${1} )
+	${0:source}
+end do]]></text>
+  </snippet>
+  <snippet>
+    <tag>wr</tag>
+    <description>write</description>
+    <text><![CDATA[write(unit=${1:*},fmt=${2:*}) "$3", $0]]></text>
+  </snippet>
+</snippets>

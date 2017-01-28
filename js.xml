@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="js">
+  <snippet>
+    <tag>fun</tag>
+    <description>function</description>
+    <text><![CDATA[function ${1:function_name}(${2:first_argument}) {
+	$0
+}]]></text>
+  </snippet>
+</snippets>

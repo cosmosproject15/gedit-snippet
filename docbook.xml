@@ -1,0 +1,2635 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="docbook">
+  <snippet>
+    <tag>doctype</tag>
+    <description>DOCTYPE</description>
+    <text><![CDATA[<!DOCTYPE ${1:chapter} PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "${2}.ent">
+%BOOK_ENTITIES;
+]>]]></text>
+  </snippet>
+  <snippet>
+    <tag>entity</tag>
+    <description>ENTITY</description>
+    <text><![CDATA[<!ENTITY ${1} "${2}">]]></text>
+  </snippet>
+  <snippet>
+    <tag>abbrev</tag>
+    <description>abbrev</description>
+    <text><![CDATA[<abbrev>${1}</abbrev>]]></text>
+  </snippet>
+  <snippet>
+    <tag>abstract</tag>
+    <description>abstract</description>
+    <text><![CDATA[<abstract>
+	${1}
+</abstract>]]></text>
+  </snippet>
+  <snippet>
+    <tag>accel</tag>
+    <description>accel</description>
+    <text><![CDATA[<accel>${1}</accel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>ackno</tag>
+    <description>ackno</description>
+    <text><![CDATA[<ackno>
+	${1}
+</ackno>]]></text>
+  </snippet>
+  <snippet>
+    <tag>acronym</tag>
+    <description>acronym</description>
+    <text><![CDATA[<acronym>${1}</acronym>]]></text>
+  </snippet>
+  <snippet>
+    <tag>action</tag>
+    <description>action</description>
+    <text><![CDATA[<action>${1}</action>]]></text>
+  </snippet>
+  <snippet>
+    <tag>address</tag>
+    <description>address</description>
+    <text><![CDATA[<address>
+	${1}
+</address>]]></text>
+  </snippet>
+  <snippet>
+    <tag>affiliation</tag>
+    <description>affiliation</description>
+    <text><![CDATA[<affiliation>
+	${1}
+</affiliation>]]></text>
+  </snippet>
+  <snippet>
+    <tag>alt</tag>
+    <description>alt</description>
+    <text><![CDATA[<alt>${1}</alt>]]></text>
+  </snippet>
+  <snippet>
+    <tag>anchor</tag>
+    <description>anchor</description>
+    <text><![CDATA[<anchor id="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>answer</tag>
+    <description>answer</description>
+    <text><![CDATA[<answer>
+	${1}
+</answer>]]></text>
+  </snippet>
+  <snippet>
+    <tag>appendix</tag>
+    <description>appendix</description>
+    <text><![CDATA[<appendix id="${1}">
+	${2}
+</appendix>]]></text>
+  </snippet>
+  <snippet>
+    <tag>appendixinfo</tag>
+    <description>appendixinfo</description>
+    <text><![CDATA[<appendixinfo>
+	${1}
+</appendixinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>application</tag>
+    <description>application</description>
+    <text><![CDATA[<application>${1}</application>]]></text>
+  </snippet>
+  <snippet>
+    <tag>area</tag>
+    <description>area</description>
+    <text><![CDATA[<area id="${1}" coords="${2}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>areaset</tag>
+    <description>areaset</description>
+    <text><![CDATA[<areaset id="${1}" coords="${2}">
+	${3}
+</areaset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>areaspec</tag>
+    <description>areaspec</description>
+    <text><![CDATA[<areaspec units="${1}">
+	${2}
+</areaspec>]]></text>
+  </snippet>
+  <snippet>
+    <tag>arg</tag>
+    <description>arg</description>
+    <text><![CDATA[<arg>${1}</arg>]]></text>
+  </snippet>
+  <snippet>
+    <tag>article</tag>
+    <description>article</description>
+    <text><![CDATA[<article id="${1}">
+	${2}
+</article>]]></text>
+  </snippet>
+  <snippet>
+    <tag>articleinfo</tag>
+    <description>articleinfo</description>
+    <text><![CDATA[<articleinfo>
+	${1}
+</articleinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>artpagenums</tag>
+    <description>artpagenums</description>
+    <text><![CDATA[<artpagenums>${1}</artpagenums>]]></text>
+  </snippet>
+  <snippet>
+    <tag>attribution</tag>
+    <description>attribution</description>
+    <text><![CDATA[<attribution>${1}</attribution>]]></text>
+  </snippet>
+  <snippet>
+    <tag>audiodata</tag>
+    <description>audiodata</description>
+    <text><![CDATA[<audiodata fileref="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>audioobject</tag>
+    <description>audioobject</description>
+    <text><![CDATA[<audioobject>
+	${1}
+</audioobject>]]></text>
+  </snippet>
+  <snippet>
+    <tag>author</tag>
+    <description>author</description>
+    <text><![CDATA[<author>
+	${1}
+</author>]]></text>
+  </snippet>
+  <snippet>
+    <tag>authorblurb</tag>
+    <description>authorblurb</description>
+    <text><![CDATA[<authorblurb>
+	${1}
+</authorblurb>]]></text>
+  </snippet>
+  <snippet>
+    <tag>authorgroup</tag>
+    <description>authorgroup</description>
+    <text><![CDATA[<authorgroup>
+	${1}
+</authorgroup>]]></text>
+  </snippet>
+  <snippet>
+    <tag>authorinitials</tag>
+    <description>authorinitials</description>
+    <text><![CDATA[<authorinitials>${1}</authorinitials>]]></text>
+  </snippet>
+  <snippet>
+    <tag>beginpage</tag>
+    <description>beginpage</description>
+    <text><![CDATA[<beginpage pagenum="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliocoverage</tag>
+    <description>bibliocoverage</description>
+    <text><![CDATA[<bibliocoverage>
+	${1}
+</bibliocoverage>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliodiv</tag>
+    <description>bibliodiv</description>
+    <text><![CDATA[<bibliodiv>
+	${1}
+</bibliodiv>]]></text>
+  </snippet>
+  <snippet>
+    <tag>biblioentry</tag>
+    <description>biblioentry</description>
+    <text><![CDATA[<biblioentry>
+	${1}
+</biblioentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliography</tag>
+    <description>bibliography</description>
+    <text><![CDATA[<bibliography>
+	${1}
+</bibliography>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliographyinfo</tag>
+    <description>bibliographyinfo</description>
+    <text><![CDATA[<bibliographyinfo>
+	${1}
+</bibliographyinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>biblioid</tag>
+    <description>biblioid</description>
+    <text><![CDATA[<biblioid class="${1:isbn}">${2}</biblioid>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliolist</tag>
+    <description>bibliolist</description>
+    <text><![CDATA[<bibliolist>
+	${1}
+</bibliolist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliomisc</tag>
+    <description>bibliomisc</description>
+    <text><![CDATA[<bibliomisc>
+	${1}
+</bibliomisc>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliomixed</tag>
+    <description>bibliomixed</description>
+    <text><![CDATA[<bibliomixed>
+	${1}
+</bibliomixed>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliomset</tag>
+    <description>bibliomset</description>
+    <text><![CDATA[<bibliomset relation="${1}">
+	${2}
+</bibliomset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>biblioref</tag>
+    <description>biblioref</description>
+    <text><![CDATA[<biblioref linkend="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliorelation</tag>
+    <description>bibliorelation</description>
+    <text><![CDATA[<bibliorelation type="${1}" class="${2}">${3}</bibliorelation>]]></text>
+  </snippet>
+  <snippet>
+    <tag>biblioset</tag>
+    <description>biblioset</description>
+    <text><![CDATA[<biblioset relation="${1}">
+	${2}
+</biblioset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bibliosource</tag>
+    <description>bibliosource</description>
+    <text><![CDATA[<bibliosource class="${1:isbn}">${2}</bibliosource>]]></text>
+  </snippet>
+  <snippet>
+    <tag>blockinfo</tag>
+    <description>blockinfo</description>
+    <text><![CDATA[<blockinfo>
+	${1}
+</blockinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>blockquote</tag>
+    <description>blockquote</description>
+    <text><![CDATA[<blockquote>
+	${1}
+</blockquote>]]></text>
+  </snippet>
+  <snippet>
+    <tag>book</tag>
+    <description>book</description>
+    <text><![CDATA[<book id="${1}">
+	${2}
+</book>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bookinfo</tag>
+    <description>bookinfo</description>
+    <text><![CDATA[<bookinfo>
+	${1}
+</bookinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bridgehead</tag>
+    <description>bridgehead</description>
+    <text><![CDATA[<bridgehead id="${1}">${2}</bridgehead>]]></text>
+  </snippet>
+  <snippet>
+    <tag>callout</tag>
+    <description>callout</description>
+    <text><![CDATA[<callout arearefs="${1}">
+	${2}
+</callout>]]></text>
+  </snippet>
+  <snippet>
+    <tag>calloutlist</tag>
+    <description>calloutlist</description>
+    <text><![CDATA[<calloutlist>
+	${1}
+</calloutlist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>caption</tag>
+    <description>caption</description>
+    <text><![CDATA[<caption>
+	${1}
+</caption>]]></text>
+  </snippet>
+  <snippet>
+    <tag>caution</tag>
+    <description>caution</description>
+    <text><![CDATA[<caution>
+	${1}
+</caution>]]></text>
+  </snippet>
+  <snippet>
+    <tag>chapter</tag>
+    <description>chapter</description>
+    <text><![CDATA[<chapter id="${1}">
+	${2}
+</chapter>]]></text>
+  </snippet>
+  <snippet>
+    <tag>chapterinfo</tag>
+    <description>chapterinfo</description>
+    <text><![CDATA[<chapterinfo>
+	${1}
+</chapterinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>citation</tag>
+    <description>citation</description>
+    <text><![CDATA[<citation>${1}</citation>]]></text>
+  </snippet>
+  <snippet>
+    <tag>citebiblioid</tag>
+    <description>citebiblioid</description>
+    <text><![CDATA[<citebiblioid class="${1:isbn}">${2}</citebiblioid>]]></text>
+  </snippet>
+  <snippet>
+    <tag>citerefentry</tag>
+    <description>citerefentry</description>
+    <text><![CDATA[<citerefentry>${1}</citerefentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>citetitle</tag>
+    <description>citetitle</description>
+    <text><![CDATA[<citetitle pubwork="${1:book}">${2}</citetitle>]]></text>
+  </snippet>
+  <snippet>
+    <tag>city</tag>
+    <description>city</description>
+    <text><![CDATA[<city>${1}</city>]]></text>
+  </snippet>
+  <snippet>
+    <tag>classname</tag>
+    <description>classname</description>
+    <text><![CDATA[<classname>${1}</classname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>classsynopsis</tag>
+    <description>classsynopsis</description>
+    <text><![CDATA[<classsynopsis class="${1}" language="${2}">
+	${3}
+</classsynopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>classsynopsisinfo</tag>
+    <description>classsynopsisinfo</description>
+    <text><![CDATA[<classsynopsisinfo>
+	${1}
+</classsynopsisinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>cmdsynopsis</tag>
+    <description>cmdsynopsis</description>
+    <text><![CDATA[<cmdsynopsis>
+	${1}
+</cmdsynopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>co</tag>
+    <description>co</description>
+    <text><![CDATA[<co label="${1}" linkends="${2}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>code</tag>
+    <description>code</description>
+    <text><![CDATA[<code language="${1}">${2}</code>]]></text>
+  </snippet>
+  <snippet>
+    <tag>col</tag>
+    <description>col</description>
+    <text><![CDATA[<col>
+	${1}
+</col>]]></text>
+  </snippet>
+  <snippet>
+    <tag>colgroup</tag>
+    <description>colgroup</description>
+    <text><![CDATA[<colgroup>
+	${1}
+</colgroup>]]></text>
+  </snippet>
+  <snippet>
+    <tag>collab</tag>
+    <description>collab</description>
+    <text><![CDATA[<collab>
+	${1}
+</collab>]]></text>
+  </snippet>
+  <snippet>
+    <tag>collabname</tag>
+    <description>collabname</description>
+    <text><![CDATA[<collabname>${1}</collabname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>colophon</tag>
+    <description>colophon</description>
+    <text><![CDATA[<colophon>
+	${1}
+</colophon>]]></text>
+  </snippet>
+  <snippet>
+    <tag>colspec</tag>
+    <description>colspec</description>
+    <text><![CDATA[<colspec colname="${1}" colnum="${2}" colwidth="${3}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>command</tag>
+    <description>command</description>
+    <text><![CDATA[<command>${1}</command>]]></text>
+  </snippet>
+  <snippet>
+    <tag>computeroutput</tag>
+    <description>computeroutput</description>
+    <text><![CDATA[<computeroutput>${1}</computeroutput>]]></text>
+  </snippet>
+  <snippet>
+    <tag>confdates</tag>
+    <description>confdates</description>
+    <text><![CDATA[<confdates>${1}</confdates>]]></text>
+  </snippet>
+  <snippet>
+    <tag>confgroup</tag>
+    <description>confgroup</description>
+    <text><![CDATA[<confgroup>
+	${1}
+</confgroup>]]></text>
+  </snippet>
+  <snippet>
+    <tag>confnum</tag>
+    <description>confnum</description>
+    <text><![CDATA[<confnum>${1}</confnum>]]></text>
+  </snippet>
+  <snippet>
+    <tag>confsponsor</tag>
+    <description>confsponsor</description>
+    <text><![CDATA[<confsponsor>${1}</confsponsor>]]></text>
+  </snippet>
+  <snippet>
+    <tag>conftitle</tag>
+    <description>conftitle</description>
+    <text><![CDATA[<conftitle>${1}</conftitle>]]></text>
+  </snippet>
+  <snippet>
+    <tag>constant</tag>
+    <description>constant</description>
+    <text><![CDATA[<constant>${1}</constant>]]></text>
+  </snippet>
+  <snippet>
+    <tag>constructorsynopsis</tag>
+    <description>constructorsynopsis</description>
+    <text><![CDATA[<constructorsynopsis language="${1}">
+	${2}
+</constructorsynopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>contractnum</tag>
+    <description>contractnum</description>
+    <text><![CDATA[<contractnum>${1}</contractnum>]]></text>
+  </snippet>
+  <snippet>
+    <tag>contractsponsor</tag>
+    <description>contractsponsor</description>
+    <text><![CDATA[<contractsponsor>${1}</contractsponsor>]]></text>
+  </snippet>
+  <snippet>
+    <tag>contrib</tag>
+    <description>contrib</description>
+    <text><![CDATA[<contrib>${1}</contrib>]]></text>
+  </snippet>
+  <snippet>
+    <tag>copyright</tag>
+    <description>copyright</description>
+    <text><![CDATA[<copyright>
+	${1}
+</copyright>]]></text>
+  </snippet>
+  <snippet>
+    <tag>coref</tag>
+    <description>coref</description>
+    <text><![CDATA[<coref label="${1}" linkend="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>corpauthor</tag>
+    <description>corpauthor</description>
+    <text><![CDATA[<corpauthor>${1}</corpauthor>]]></text>
+  </snippet>
+  <snippet>
+    <tag>corpcredit</tag>
+    <description>corpcredit</description>
+    <text><![CDATA[<corpcredit>${1}</corpcredit>]]></text>
+  </snippet>
+  <snippet>
+    <tag>corpname</tag>
+    <description>corpname</description>
+    <text><![CDATA[<corpname>${1}</corpname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>country</tag>
+    <description>country</description>
+    <text><![CDATA[<country>${1}</country>]]></text>
+  </snippet>
+  <snippet>
+    <tag>database</tag>
+    <description>database</description>
+    <text><![CDATA[<database class="${1}">${2}</database>]]></text>
+  </snippet>
+  <snippet>
+    <tag>date</tag>
+    <description>date</description>
+    <text><![CDATA[<date>${1}</date>]]></text>
+  </snippet>
+  <snippet>
+    <tag>dedication</tag>
+    <description>dedication</description>
+    <text><![CDATA[<dedication>
+	${1}
+</dedication>]]></text>
+  </snippet>
+  <snippet>
+    <tag>destructorsynopsis</tag>
+    <description>destructorsynopsis</description>
+    <text><![CDATA[<destructorsynopsis language="${1}">
+	${2}
+</destructorsynopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>edition</tag>
+    <description>edition</description>
+    <text><![CDATA[<edition>${1}</edition>]]></text>
+  </snippet>
+  <snippet>
+    <tag>editor</tag>
+    <description>editor</description>
+    <text><![CDATA[<editor>
+	${1}
+</editor>]]></text>
+  </snippet>
+  <snippet>
+    <tag>email</tag>
+    <description>email</description>
+    <text><![CDATA[<email>${1}</email>]]></text>
+  </snippet>
+  <snippet>
+    <tag>emphasis</tag>
+    <description>emphasis</description>
+    <text><![CDATA[<emphasis>${1}</emphasis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>bold</tag>
+    <description>emphasis, role bold</description>
+    <text><![CDATA[<emphasis role="bold">${1}</emphasis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>strong</tag>
+    <description>emphasis, role strong</description>
+    <text><![CDATA[<emphasis role="strong">${1}</emphasis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>entry</tag>
+    <description>entry</description>
+    <text><![CDATA[<entry>${1}</entry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>entrytbl</tag>
+    <description>entrytbl</description>
+    <text><![CDATA[<entrytbl cols="${1}">
+	${2}
+</entrytbl>]]></text>
+  </snippet>
+  <snippet>
+    <tag>envar</tag>
+    <description>envar</description>
+    <text><![CDATA[<envar>${1}</envar>]]></text>
+  </snippet>
+  <snippet>
+    <tag>epigraph</tag>
+    <description>epigraph</description>
+    <text><![CDATA[<epigraph>
+	${1}
+</epigraph>]]></text>
+  </snippet>
+  <snippet>
+    <tag>equation</tag>
+    <description>equation</description>
+    <text><![CDATA[<equation>
+	${1}
+</equation>]]></text>
+  </snippet>
+  <snippet>
+    <tag>errorcode</tag>
+    <description>errorcode</description>
+    <text><![CDATA[<errorcode>${1}</errorcode>]]></text>
+  </snippet>
+  <snippet>
+    <tag>errorname</tag>
+    <description>errorname</description>
+    <text><![CDATA[<errorname>${1}</errorname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>errortext</tag>
+    <description>errortext</description>
+    <text><![CDATA[<errortext>${1}</errortext>]]></text>
+  </snippet>
+  <snippet>
+    <tag>errortype</tag>
+    <description>errortype</description>
+    <text><![CDATA[<errortype>${1}</errortype>]]></text>
+  </snippet>
+  <snippet>
+    <tag>example</tag>
+    <description>example</description>
+    <text><![CDATA[<example id="${1}">
+	${2}
+</example>]]></text>
+  </snippet>
+  <snippet>
+    <tag>exceptionname</tag>
+    <description>exceptionname</description>
+    <text><![CDATA[<exceptionname>${1}</exceptionname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>fax</tag>
+    <description>fax</description>
+    <text><![CDATA[<fax>${1}</fax>]]></text>
+  </snippet>
+  <snippet>
+    <tag>fieldsynopsis</tag>
+    <description>fieldsynopsis</description>
+    <text><![CDATA[<fieldsynopsis language="${1}">
+	${2}
+</fieldsynopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>figure</tag>
+    <description>figure</description>
+    <text><![CDATA[<figure id="${1}">
+	${2}
+</figure>]]></text>
+  </snippet>
+  <snippet>
+    <tag>filename</tag>
+    <description>filename</description>
+    <text><![CDATA[<filename>${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>devicefile</tag>
+    <description>filename, class devicefile</description>
+    <text><![CDATA[<filename class="devicefile">${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>directory</tag>
+    <description>filename, class directory</description>
+    <text><![CDATA[<filename class="directory">${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>extension</tag>
+    <description>filename, class extension</description>
+    <text><![CDATA[<filename class="extension">${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>headerfile</tag>
+    <description>filename, class headerfile</description>
+    <text><![CDATA[<filename class="headerfile">${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>libraryfile</tag>
+    <description>filename, class libraryfile</description>
+    <text><![CDATA[<filename class="libraryfile">${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>partition</tag>
+    <description>filename, class partition</description>
+    <text><![CDATA[<filename class="partition">${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>symlink</tag>
+    <description>filename, class symlink</description>
+    <text><![CDATA[<filename class="symlink">${1}</filename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>firstname</tag>
+    <description>firstname</description>
+    <text><![CDATA[<firstname>${1}</firstname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>firstterm</tag>
+    <description>firstterm</description>
+    <text><![CDATA[<firstterm>${1}</firstterm>]]></text>
+  </snippet>
+  <snippet>
+    <tag>footnote</tag>
+    <description>footnote</description>
+    <text><![CDATA[<footnote>
+	${1}
+</footnote>]]></text>
+  </snippet>
+  <snippet>
+    <tag>footnoteref</tag>
+    <description>footnoteref</description>
+    <text><![CDATA[<footnoteref linkend="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>foreignphrase</tag>
+    <description>foreignphrase</description>
+    <text><![CDATA[<foreignphrase>${1}</foreignphrase>]]></text>
+  </snippet>
+  <snippet>
+    <tag>formalpara</tag>
+    <description>formalpara</description>
+    <text><![CDATA[<formalpara>
+	${1}
+</formalpara>]]></text>
+  </snippet>
+  <snippet>
+    <tag>funcdef</tag>
+    <description>funcdef</description>
+    <text><![CDATA[<funcdef>${1}</funcdef>]]></text>
+  </snippet>
+  <snippet>
+    <tag>funcparams</tag>
+    <description>funcparams</description>
+    <text><![CDATA[<funcparams>${1}</funcparams>]]></text>
+  </snippet>
+  <snippet>
+    <tag>funcprototype</tag>
+    <description>funcprototype</description>
+    <text><![CDATA[<funcprototype>
+	${1}
+</funcprototype>]]></text>
+  </snippet>
+  <snippet>
+    <tag>funcsynopsis</tag>
+    <description>funcsynopsis</description>
+    <text><![CDATA[<funcsynopsis>
+	${1}
+</funcsynopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>funcsynopsisinfo</tag>
+    <description>funcsynopsisinfo</description>
+    <text><![CDATA[<funcsynopsisinfo>
+	${1}
+</funcsynopsisinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>function</tag>
+    <description>function</description>
+    <text><![CDATA[<function>${1}</function>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glossary</tag>
+    <description>glossary</description>
+    <text><![CDATA[<glossary id="${1}">
+	${2}
+</glossary>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glossaryinfo</tag>
+    <description>glossaryinfo</description>
+    <text><![CDATA[<glossaryinfo>
+	${1}
+</glossaryinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glossdef</tag>
+    <description>glossdef</description>
+    <text><![CDATA[<glossdef>
+	${1}
+</glossdef>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glossdiv</tag>
+    <description>glossdiv</description>
+    <text><![CDATA[<glossdiv>
+	${1}
+</glossdiv>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glossentry</tag>
+    <description>glossentry</description>
+    <text><![CDATA[<glossentry>
+	${1}
+</glossentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glosslist</tag>
+    <description>glosslist</description>
+    <text><![CDATA[<glosslist>
+	${1}
+</glosslist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glosssee</tag>
+    <description>glosssee</description>
+    <text><![CDATA[<glosssee otherterm="${1}">${2}</glosssee>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glossseealso</tag>
+    <description>glossseealso</description>
+    <text><![CDATA[<glossseealso otherterm="${1}">${2}</glossseealso>]]></text>
+  </snippet>
+  <snippet>
+    <tag>glossterm</tag>
+    <description>glossterm</description>
+    <text><![CDATA[<glossterm>${1}</glossterm>]]></text>
+  </snippet>
+  <snippet>
+    <tag>graphic</tag>
+    <description>graphic</description>
+    <text><![CDATA[<graphic fileref="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>graphicco</tag>
+    <description>graphicco</description>
+    <text><![CDATA[<graphicco>
+	${1}
+</graphicco>]]></text>
+  </snippet>
+  <snippet>
+    <tag>group</tag>
+    <description>group</description>
+    <text><![CDATA[<group>
+	${1}
+</group>]]></text>
+  </snippet>
+  <snippet>
+    <tag>guibutton</tag>
+    <description>guibutton</description>
+    <text><![CDATA[<guibutton>${1}</guibutton>]]></text>
+  </snippet>
+  <snippet>
+    <tag>guiicon</tag>
+    <description>guiicon</description>
+    <text><![CDATA[<guiicon>${1}</guiicon>]]></text>
+  </snippet>
+  <snippet>
+    <tag>guilabel</tag>
+    <description>guilabel</description>
+    <text><![CDATA[<guilabel>${1}</guilabel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>guimenu</tag>
+    <description>guimenu</description>
+    <text><![CDATA[<guimenu>${1}</guimenu>]]></text>
+  </snippet>
+  <snippet>
+    <tag>guimenuitem</tag>
+    <description>guimenuitem</description>
+    <text><![CDATA[<guimenuitem>${1}</guimenuitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>guisubmenu</tag>
+    <description>guisubmenu</description>
+    <text><![CDATA[<guisubmenu>${1}</guisubmenu>]]></text>
+  </snippet>
+  <snippet>
+    <tag>hardware</tag>
+    <description>hardware</description>
+    <text><![CDATA[<hardware>${1}</hardware>]]></text>
+  </snippet>
+  <snippet>
+    <tag>highlights</tag>
+    <description>highlights</description>
+    <text><![CDATA[<highlights>
+	${1}
+</highlights>]]></text>
+  </snippet>
+  <snippet>
+    <tag>holder</tag>
+    <description>holder</description>
+    <text><![CDATA[<holder>${1}</holder>]]></text>
+  </snippet>
+  <snippet>
+    <tag>honorific</tag>
+    <description>honorific</description>
+    <text><![CDATA[<honorific>${1}</honorific>]]></text>
+  </snippet>
+  <snippet>
+    <tag>imagedata</tag>
+    <description>imagedata</description>
+    <text><![CDATA[<imagedata fileref="${1}" format="${2:PNG}" scalefit="${3:0}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>imageobject</tag>
+    <description>imageobject</description>
+    <text><![CDATA[<imageobject>
+	${1}
+</imageobject>]]></text>
+  </snippet>
+  <snippet>
+    <tag>imageobjectco</tag>
+    <description>imageobjectco</description>
+    <text><![CDATA[<imageobjectco>
+	${1}
+</imageobjectco>]]></text>
+  </snippet>
+  <snippet>
+    <tag>important</tag>
+    <description>important</description>
+    <text><![CDATA[<important>
+	${1}
+</important>]]></text>
+  </snippet>
+  <snippet>
+    <tag>index</tag>
+    <description>index</description>
+    <text><![CDATA[<index>
+	${1}
+</index>]]></text>
+  </snippet>
+  <snippet>
+    <tag>indexdiv</tag>
+    <description>indexdiv</description>
+    <text><![CDATA[<indexdiv>
+	${1}
+</indexdiv>]]></text>
+  </snippet>
+  <snippet>
+    <tag>indexentry</tag>
+    <description>indexentry</description>
+    <text><![CDATA[<indexentry>
+	${1}
+</indexentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>indexinfo</tag>
+    <description>indexinfo</description>
+    <text><![CDATA[<indexinfo>
+	${1}
+</indexinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>indexterm</tag>
+    <description>indexterm</description>
+    <text><![CDATA[<indexterm>
+	${1}
+</indexterm>]]></text>
+  </snippet>
+  <snippet>
+    <tag>informalequation</tag>
+    <description>informalequation</description>
+    <text><![CDATA[<informalequation>
+	${1}
+</informalequation>]]></text>
+  </snippet>
+  <snippet>
+    <tag>informalexample</tag>
+    <description>informalexample</description>
+    <text><![CDATA[<informalexample>
+	${1}
+</informalexample>]]></text>
+  </snippet>
+  <snippet>
+    <tag>informalfigure</tag>
+    <description>informalfigure</description>
+    <text><![CDATA[<informalfigure>
+	${1}
+</informalfigure>]]></text>
+  </snippet>
+  <snippet>
+    <tag>informaltable</tag>
+    <description>informaltable</description>
+    <text><![CDATA[<informaltable>
+	${1}
+</informaltable>]]></text>
+  </snippet>
+  <snippet>
+    <tag>initializer</tag>
+    <description>initializer</description>
+    <text><![CDATA[<initializer>${1}</initializer>]]></text>
+  </snippet>
+  <snippet>
+    <tag>inlineequation</tag>
+    <description>inlineequation</description>
+    <text><![CDATA[<inlineequation>
+	${1}
+</inlineequation>]]></text>
+  </snippet>
+  <snippet>
+    <tag>inlinegraphic</tag>
+    <description>inlinegraphic</description>
+    <text><![CDATA[<inlinegraphic fileref="${1}" format="${2:PNG}" scalefit="${3:0}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>inlinemediaobject</tag>
+    <description>inlinemediaobject</description>
+    <text><![CDATA[<inlinemediaobject>
+	${1}
+</inlinemediaobject>]]></text>
+  </snippet>
+  <snippet>
+    <tag>interface</tag>
+    <description>interface</description>
+    <text><![CDATA[<interface>${1}</interface>]]></text>
+  </snippet>
+  <snippet>
+    <tag>interfacename</tag>
+    <description>interfacename</description>
+    <text><![CDATA[<interfacename>${1}</interfacename>]]></text>
+  </snippet>
+  <snippet>
+    <tag>invpartnumber</tag>
+    <description>invpartnumber</description>
+    <text><![CDATA[<invpartnumber>${1}</invpartnumber>]]></text>
+  </snippet>
+  <snippet>
+    <tag>isbn</tag>
+    <description>isbn</description>
+    <text><![CDATA[<isbn>${1}</isbn>]]></text>
+  </snippet>
+  <snippet>
+    <tag>issn</tag>
+    <description>issn</description>
+    <text><![CDATA[<issn>${1}</issn>]]></text>
+  </snippet>
+  <snippet>
+    <tag>issuenum</tag>
+    <description>issuenum</description>
+    <text><![CDATA[<issuenum>${1}</issuenum>]]></text>
+  </snippet>
+  <snippet>
+    <tag>itemizedlist</tag>
+    <description>itemizedlist</description>
+    <text><![CDATA[<itemizedlist>
+	${1}
+</itemizedlist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>itermset</tag>
+    <description>itermset</description>
+    <text><![CDATA[<itermset>
+	${1}
+</itermset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>jobtitle</tag>
+    <description>jobtitle</description>
+    <text><![CDATA[<jobtitle>${1}</jobtitle>]]></text>
+  </snippet>
+  <snippet>
+    <tag>keycap</tag>
+    <description>keycap</description>
+    <text><![CDATA[<keycap>${1}</keycap>]]></text>
+  </snippet>
+  <snippet>
+    <tag>keycode</tag>
+    <description>keycode</description>
+    <text><![CDATA[<keycode>${1}</keycode>]]></text>
+  </snippet>
+  <snippet>
+    <tag>keycombo</tag>
+    <description>keycombo</description>
+    <text><![CDATA[<keycombo>${1}</keycombo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>keysym</tag>
+    <description>keysym</description>
+    <text><![CDATA[<keysym>${1}</keysym>]]></text>
+  </snippet>
+  <snippet>
+    <tag>keyword</tag>
+    <description>keyword</description>
+    <text><![CDATA[<keyword>${1}</keyword>]]></text>
+  </snippet>
+  <snippet>
+    <tag>keywordset</tag>
+    <description>keywordset</description>
+    <text><![CDATA[<keywordset>
+	${1}
+</keywordset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>label</tag>
+    <description>label</description>
+    <text><![CDATA[<label>${1}</label>]]></text>
+  </snippet>
+  <snippet>
+    <tag>legalnotice</tag>
+    <description>legalnotice</description>
+    <text><![CDATA[<legalnotice>
+	${1}
+</legalnotice>]]></text>
+  </snippet>
+  <snippet>
+    <tag>lineage</tag>
+    <description>lineage</description>
+    <text><![CDATA[<lineage>${1}</lineage>]]></text>
+  </snippet>
+  <snippet>
+    <tag>lineannotation</tag>
+    <description>lineannotation</description>
+    <text><![CDATA[<lineannotation>${1}</lineannotation>]]></text>
+  </snippet>
+  <snippet>
+    <tag>link</tag>
+    <description>link</description>
+    <text><![CDATA[<link linkend="${1}">${2}</link>]]></text>
+  </snippet>
+  <snippet>
+    <tag>listitem</tag>
+    <description>listitem</description>
+    <text><![CDATA[<listitem>
+	${1}
+</listitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>literal</tag>
+    <description>literal</description>
+    <text><![CDATA[<literal>${1}</literal>]]></text>
+  </snippet>
+  <snippet>
+    <tag>literallayout</tag>
+    <description>literallayout</description>
+    <text><![CDATA[<literallayout>${1}</literallayout>]]></text>
+  </snippet>
+  <snippet>
+    <tag>lot</tag>
+    <description>lot</description>
+    <text><![CDATA[<lot>
+	${1}
+</lot>]]></text>
+  </snippet>
+  <snippet>
+    <tag>lotentry</tag>
+    <description>lotentry</description>
+    <text><![CDATA[<lotentry linkend="${1}">
+	${2}
+</lotentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>manvolnum</tag>
+    <description>manvolnum</description>
+    <text><![CDATA[<manvolnum>${1}</manvolnum>]]></text>
+  </snippet>
+  <snippet>
+    <tag>markup</tag>
+    <description>markup</description>
+    <text><![CDATA[<markup>${1}</markup>]]></text>
+  </snippet>
+  <snippet>
+    <tag>mathphrase</tag>
+    <description>mathphrase</description>
+    <text><![CDATA[<mathphrase>${1}</mathphrase>]]></text>
+  </snippet>
+  <snippet>
+    <tag>medialabel</tag>
+    <description>medialabel</description>
+    <text><![CDATA[<medialabel>${1}</medialabel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>cartridge</tag>
+    <description>medialabel, class cartridge</description>
+    <text><![CDATA[<medialabel class="cartridge">${1}</medialabel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>cdrom</tag>
+    <description>medialabel, class cdrom</description>
+    <text><![CDATA[<medialabel class="cdrom">${1}</medialabel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>disk</tag>
+    <description>medialabel, class disk</description>
+    <text><![CDATA[<medialabel class="disk">${1}</medialabel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tape</tag>
+    <description>medialabel, class tape</description>
+    <text><![CDATA[<medialabel class="tape">${1}</medialabel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>mediaobject</tag>
+    <description>mediaobject</description>
+    <text><![CDATA[<mediaobject>
+	${1}
+</mediaobject>]]></text>
+  </snippet>
+  <snippet>
+    <tag>mediaobjectco</tag>
+    <description>mediaobjectco</description>
+    <text><![CDATA[<mediaobjectco>
+	${1}
+</mediaobjectco>]]></text>
+  </snippet>
+  <snippet>
+    <tag>member</tag>
+    <description>member</description>
+    <text><![CDATA[<member>
+	${1}
+</member>]]></text>
+  </snippet>
+  <snippet>
+    <tag>menuchoice</tag>
+    <description>menuchoice</description>
+    <text><![CDATA[<menuchoice>${1}</menuchoice>]]></text>
+  </snippet>
+  <snippet>
+    <tag>methodname</tag>
+    <description>methodname</description>
+    <text><![CDATA[<methodname>${1}</methodname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>methodparam</tag>
+    <description>methodparam</description>
+    <text><![CDATA[<methodparam>${1}</methodparam>]]></text>
+  </snippet>
+  <snippet>
+    <tag>methodsynopsis</tag>
+    <description>methodsynopsis</description>
+    <text><![CDATA[<methodsynopsis language="${1}">
+	${2}
+</methodsynopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>modespec</tag>
+    <description>modespec</description>
+    <text><![CDATA[<modespec application="${1}">${2}</modespec>]]></text>
+  </snippet>
+  <snippet>
+    <tag>modifier</tag>
+    <description>modifier</description>
+    <text><![CDATA[<modifier>${1}</modifier>]]></text>
+  </snippet>
+  <snippet>
+    <tag>mousebutton</tag>
+    <description>mousebutton</description>
+    <text><![CDATA[<mousebutton>${1}</mousebutton>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msg</tag>
+    <description>msg</description>
+    <text><![CDATA[<msg>
+	${1}
+</msg>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgaud</tag>
+    <description>msgaud</description>
+    <text><![CDATA[<msgaud>${1}</msgaud>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgentry</tag>
+    <description>msgentry</description>
+    <text><![CDATA[<msgentry>
+	${1}
+</msgentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgexplan</tag>
+    <description>msgexplan</description>
+    <text><![CDATA[<msgexplan>
+	${1}
+</msgexplan>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msginfo</tag>
+    <description>msginfo</description>
+    <text><![CDATA[<msginfo>
+	${1}
+</msginfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msglevel</tag>
+    <description>msglevel</description>
+    <text><![CDATA[<msglevel>${1}</msglevel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgmain</tag>
+    <description>msgmain</description>
+    <text><![CDATA[<msgmain>
+	${1}
+</msgmain>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgorig</tag>
+    <description>msgorig</description>
+    <text><![CDATA[<msgorig>${1}</msgorig>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgrel</tag>
+    <description>msgrel</description>
+    <text><![CDATA[<msgrel>
+	${1}
+</msgrel>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgset</tag>
+    <description>msgset</description>
+    <text><![CDATA[<msgset>
+	${1}
+</msgset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgsub</tag>
+    <description>msgsub</description>
+    <text><![CDATA[<msgsub>
+	${1}
+</msgsub>]]></text>
+  </snippet>
+  <snippet>
+    <tag>msgtext</tag>
+    <description>msgtext</description>
+    <text><![CDATA[<msgtext>
+	${1}
+</msgtext>]]></text>
+  </snippet>
+  <snippet>
+    <tag>note</tag>
+    <description>note</description>
+    <text><![CDATA[<note>
+	${1}
+</note>]]></text>
+  </snippet>
+  <snippet>
+    <tag>objectinfo</tag>
+    <description>objectinfo</description>
+    <text><![CDATA[<objectinfo>
+	${1}
+</objectinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>olink</tag>
+    <description>olink</description>
+    <text><![CDATA[<olink targetdocent="${1}">${2}</olink>]]></text>
+  </snippet>
+  <snippet>
+    <tag>ooclass</tag>
+    <description>ooclass</description>
+    <text><![CDATA[<ooclass>${1}</ooclass>]]></text>
+  </snippet>
+  <snippet>
+    <tag>ooexception</tag>
+    <description>ooexception</description>
+    <text><![CDATA[<ooexception>${1}</ooexception>]]></text>
+  </snippet>
+  <snippet>
+    <tag>oointerface</tag>
+    <description>oointerface</description>
+    <text><![CDATA[<oointerface>${1}</oointerface>]]></text>
+  </snippet>
+  <snippet>
+    <tag>option</tag>
+    <description>option</description>
+    <text><![CDATA[<option>${1}</option>]]></text>
+  </snippet>
+  <snippet>
+    <tag>optional</tag>
+    <description>optional</description>
+    <text><![CDATA[<optional>${1}</optional>]]></text>
+  </snippet>
+  <snippet>
+    <tag>orderedlist</tag>
+    <description>orderedlist</description>
+    <text><![CDATA[<orderedlist>
+	${1}
+</orderedlist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>orgdiv</tag>
+    <description>orgdiv</description>
+    <text><![CDATA[<orgdiv>${1}</orgdiv>]]></text>
+  </snippet>
+  <snippet>
+    <tag>orgname</tag>
+    <description>orgname</description>
+    <text><![CDATA[<orgname>${1}</orgname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>otheraddr</tag>
+    <description>otheraddr</description>
+    <text><![CDATA[<otheraddr>${1}</otheraddr>]]></text>
+  </snippet>
+  <snippet>
+    <tag>othercredit</tag>
+    <description>othercredit</description>
+    <text><![CDATA[<othercredit>
+	${1}
+</othercredit>]]></text>
+  </snippet>
+  <snippet>
+    <tag>othername</tag>
+    <description>othername</description>
+    <text><![CDATA[<othername>${1}</othername>]]></text>
+  </snippet>
+  <snippet>
+    <tag>package</tag>
+    <description>package</description>
+    <text><![CDATA[<package>${1}</package>]]></text>
+  </snippet>
+  <snippet>
+    <tag>pagenums</tag>
+    <description>pagenums</description>
+    <text><![CDATA[<pagenums>${1}</pagenums>]]></text>
+  </snippet>
+  <snippet>
+    <tag>para</tag>
+    <description>para</description>
+    <text><![CDATA[<para>
+	${1}
+</para>]]></text>
+  </snippet>
+  <snippet>
+    <tag>paramdef</tag>
+    <description>paramdef</description>
+    <text><![CDATA[<paramdef>${1}</paramdef>]]></text>
+  </snippet>
+  <snippet>
+    <tag>parameter</tag>
+    <description>parameter</description>
+    <text><![CDATA[<parameter class="${1:function}">${2}</parameter>]]></text>
+  </snippet>
+  <snippet>
+    <tag>part</tag>
+    <description>part</description>
+    <text><![CDATA[<part id="${1}">
+	${2}
+</part>]]></text>
+  </snippet>
+  <snippet>
+    <tag>partinfo</tag>
+    <description>partinfo</description>
+    <text><![CDATA[<partinfo>
+	${1}
+</partinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>partintro</tag>
+    <description>partintro</description>
+    <text><![CDATA[<partintro>
+	${1}
+</partintro>]]></text>
+  </snippet>
+  <snippet>
+    <tag>personblurb</tag>
+    <description>personblurb</description>
+    <text><![CDATA[<personblurb>
+	${1}
+</personblurb>]]></text>
+  </snippet>
+  <snippet>
+    <tag>personname</tag>
+    <description>personname</description>
+    <text><![CDATA[<personname>${1}</personname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>phone</tag>
+    <description>phone</description>
+    <text><![CDATA[<phone>${1}</phone>]]></text>
+  </snippet>
+  <snippet>
+    <tag>phrase</tag>
+    <description>phrase</description>
+    <text><![CDATA[<phrase>${1}</phrase>]]></text>
+  </snippet>
+  <snippet>
+    <tag>pob</tag>
+    <description>pob</description>
+    <text><![CDATA[<pob>${1}</pob>]]></text>
+  </snippet>
+  <snippet>
+    <tag>postcode</tag>
+    <description>postcode</description>
+    <text><![CDATA[<postcode>${1}</postcode>]]></text>
+  </snippet>
+  <snippet>
+    <tag>preface</tag>
+    <description>preface</description>
+    <text><![CDATA[<preface id="${1}">
+	${2}
+</preface>]]></text>
+  </snippet>
+  <snippet>
+    <tag>prefaceinfo</tag>
+    <description>prefaceinfo</description>
+    <text><![CDATA[<prefaceinfo>
+	${1}
+</prefaceinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>primary</tag>
+    <description>primary</description>
+    <text><![CDATA[<primary>${1}</primary>]]></text>
+  </snippet>
+  <snippet>
+    <tag>primaryie</tag>
+    <description>primaryie</description>
+    <text><![CDATA[<primaryie>${1}</primaryie>]]></text>
+  </snippet>
+  <snippet>
+    <tag>printhistory</tag>
+    <description>printhistory</description>
+    <text><![CDATA[<printhistory>
+	${1}
+</printhistory>]]></text>
+  </snippet>
+  <snippet>
+    <tag>procedure</tag>
+    <description>procedure</description>
+    <text><![CDATA[<procedure>
+	${1}
+</procedure>]]></text>
+  </snippet>
+  <snippet>
+    <tag>productname</tag>
+    <description>productname</description>
+    <text><![CDATA[<productname class="${1:trade}">${2}</productname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>productnumber</tag>
+    <description>productnumber</description>
+    <text><![CDATA[<productnumber>${1}</productnumber>]]></text>
+  </snippet>
+  <snippet>
+    <tag>programlisting</tag>
+    <description>programlisting</description>
+    <text><![CDATA[<programlisting language="${1}">${2}</programlisting>]]></text>
+  </snippet>
+  <snippet>
+    <tag>programlistingco</tag>
+    <description>programlistingco</description>
+    <text><![CDATA[<programlistingco>
+	${1}
+</programlistingco>]]></text>
+  </snippet>
+  <snippet>
+    <tag>prompt</tag>
+    <description>prompt</description>
+    <text><![CDATA[<prompt>${1}</prompt>]]></text>
+  </snippet>
+  <snippet>
+    <tag>property</tag>
+    <description>property</description>
+    <text><![CDATA[<property>${1}</property>]]></text>
+  </snippet>
+  <snippet>
+    <tag>pubdate</tag>
+    <description>pubdate</description>
+    <text><![CDATA[<pubdate>${1}</pubdate>]]></text>
+  </snippet>
+  <snippet>
+    <tag>publisher</tag>
+    <description>publisher</description>
+    <text><![CDATA[<publisher>
+	${1}
+</publisher>]]></text>
+  </snippet>
+  <snippet>
+    <tag>publishername</tag>
+    <description>publishername</description>
+    <text><![CDATA[<publishername>${1}</publishername>]]></text>
+  </snippet>
+  <snippet>
+    <tag>pubsnumber</tag>
+    <description>pubsnumber</description>
+    <text><![CDATA[<pubsnumber>${1}</pubsnumber>]]></text>
+  </snippet>
+  <snippet>
+    <tag>qandadiv</tag>
+    <description>qandadiv</description>
+    <text><![CDATA[<qandadiv>
+	${1}
+</qandadiv>]]></text>
+  </snippet>
+  <snippet>
+    <tag>qandaentry</tag>
+    <description>qandaentry</description>
+    <text><![CDATA[<qandaentry>
+	${1}
+</qandaentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>qandaset</tag>
+    <description>qandaset</description>
+    <text><![CDATA[<qandaset>
+	${1}
+</qandaset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>question</tag>
+    <description>question</description>
+    <text><![CDATA[<question>
+	${1}
+</question>]]></text>
+  </snippet>
+  <snippet>
+    <tag>quote</tag>
+    <description>quote</description>
+    <text><![CDATA[<quote>${1}</quote>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refclass</tag>
+    <description>refclass</description>
+    <text><![CDATA[<refclass>${1}</refclass>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refdescriptor</tag>
+    <description>refdescriptor</description>
+    <text><![CDATA[<refdescriptor>${1}</refdescriptor>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refentry</tag>
+    <description>refentry</description>
+    <text><![CDATA[<refentry>
+	${1}
+</refentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refentryinfo</tag>
+    <description>refentryinfo</description>
+    <text><![CDATA[<refentryinfo>
+	${1}
+</refentryinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refentrytitle</tag>
+    <description>refentrytitle</description>
+    <text><![CDATA[<refentrytitle>${1}</refentrytitle>]]></text>
+  </snippet>
+  <snippet>
+    <tag>reference</tag>
+    <description>reference</description>
+    <text><![CDATA[<reference>
+	${1}
+</reference>]]></text>
+  </snippet>
+  <snippet>
+    <tag>referenceinfo</tag>
+    <description>referenceinfo</description>
+    <text><![CDATA[<referenceinfo>
+	${1}
+</referenceinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refmeta</tag>
+    <description>refmeta</description>
+    <text><![CDATA[<refmeta>
+	${1}
+</refmeta>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refmiscinfo</tag>
+    <description>refmiscinfo</description>
+    <text><![CDATA[<refmiscinfo>
+	${1}
+</refmiscinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refname</tag>
+    <description>refname</description>
+    <text><![CDATA[<refname>${1}</refname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refnamediv</tag>
+    <description>refnamediv</description>
+    <text><![CDATA[<refnamediv>
+	${1}
+</refnamediv>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refpurpose</tag>
+    <description>refpurpose</description>
+    <text><![CDATA[<refpurpose>${1}</refpurpose>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsect1</tag>
+    <description>refsect1</description>
+    <text><![CDATA[<refsect1>
+	${1}
+</refsect1>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsect1info</tag>
+    <description>refsect1info</description>
+    <text><![CDATA[<refsect1info>
+	${1}
+</refsect1info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsect2</tag>
+    <description>refsect2</description>
+    <text><![CDATA[<refsect2>
+	${1}
+</refsect2>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsect2info</tag>
+    <description>refsect2info</description>
+    <text><![CDATA[<refsect2info>
+	${1}
+</refsect2info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsect3</tag>
+    <description>refsect3</description>
+    <text><![CDATA[<refsect3>
+	${1}
+</refsect3>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsect3info</tag>
+    <description>refsect3info</description>
+    <text><![CDATA[<refsect3info>
+	${1}
+</refsect3info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsection</tag>
+    <description>refsection</description>
+    <text><![CDATA[<refsection>
+	${1}
+</refsection>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsectioninfo</tag>
+    <description>refsectioninfo</description>
+    <text><![CDATA[<refsectioninfo>
+	${1}
+</refsectioninfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsynopsisdiv</tag>
+    <description>refsynopsisdiv</description>
+    <text><![CDATA[<refsynopsisdiv>
+	${1}
+</refsynopsisdiv>]]></text>
+  </snippet>
+  <snippet>
+    <tag>refsynopsisdivinfo</tag>
+    <description>refsynopsisdivinfo</description>
+    <text><![CDATA[<refsynopsisdivinfo>
+	${1}
+</refsynopsisdivinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>releaseinfo</tag>
+    <description>releaseinfo</description>
+    <text><![CDATA[<releaseinfo>${1}</releaseinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>remark</tag>
+    <description>remark</description>
+    <text><![CDATA[<remark>${1}</remark>]]></text>
+  </snippet>
+  <snippet>
+    <tag>replaceable</tag>
+    <description>replaceable</description>
+    <text><![CDATA[<replaceable>${1}</replaceable>]]></text>
+  </snippet>
+  <snippet>
+    <tag>returnvalue</tag>
+    <description>returnvalue</description>
+    <text><![CDATA[<returnvalue>${1}</returnvalue>]]></text>
+  </snippet>
+  <snippet>
+    <tag>revdescription</tag>
+    <description>revdescription</description>
+    <text><![CDATA[<revdescription>
+	${1}
+</revdescription>]]></text>
+  </snippet>
+  <snippet>
+    <tag>revhistory</tag>
+    <description>revhistory</description>
+    <text><![CDATA[<revhistory>
+	${1}
+</revhistory>]]></text>
+  </snippet>
+  <snippet>
+    <tag>revision</tag>
+    <description>revision</description>
+    <text><![CDATA[<revision>
+	${1}
+</revision>]]></text>
+  </snippet>
+  <snippet>
+    <tag>revnumber</tag>
+    <description>revnumber</description>
+    <text><![CDATA[<revnumber>${1}</revnumber>]]></text>
+  </snippet>
+  <snippet>
+    <tag>revremark</tag>
+    <description>revremark</description>
+    <text><![CDATA[<revremark>${1}</revremark>]]></text>
+  </snippet>
+  <snippet>
+    <tag>row</tag>
+    <description>row</description>
+    <text><![CDATA[<row>
+	${1}
+</row>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sbr</tag>
+    <description>sbr</description>
+    <text><![CDATA[<sbr />]]></text>
+  </snippet>
+  <snippet>
+    <tag>screen</tag>
+    <description>screen</description>
+    <text><![CDATA[<screen>${1}</screen>]]></text>
+  </snippet>
+  <snippet>
+    <tag>screenco</tag>
+    <description>screenco</description>
+    <text><![CDATA[<screenco>
+	${1}
+</screenco>]]></text>
+  </snippet>
+  <snippet>
+    <tag>screeninfo</tag>
+    <description>screeninfo</description>
+    <text><![CDATA[<screeninfo>${1}</screeninfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>screenshot</tag>
+    <description>screenshot</description>
+    <text><![CDATA[<screenshot>
+	${1}
+</screenshot>]]></text>
+  </snippet>
+  <snippet>
+    <tag>secondary</tag>
+    <description>secondary</description>
+    <text><![CDATA[<secondary>${1}</secondary>]]></text>
+  </snippet>
+  <snippet>
+    <tag>secondaryie</tag>
+    <description>secondaryie</description>
+    <text><![CDATA[<secondaryie>${1}</secondaryie>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect1</tag>
+    <description>sect1</description>
+    <text><![CDATA[<sect1 id="${1}">
+	${2}
+</sect1>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect1info</tag>
+    <description>sect1info</description>
+    <text><![CDATA[<sect1info>
+	${1}
+</sect1info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect2</tag>
+    <description>sect2</description>
+    <text><![CDATA[<sect2 id="${1}">
+	${2}
+</sect2>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect2info</tag>
+    <description>sect2info</description>
+    <text><![CDATA[<sect2info>
+	${1}
+</sect2info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect3</tag>
+    <description>sect3</description>
+    <text><![CDATA[<sect3 id="${1}">
+	${2}
+</sect3>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect3info</tag>
+    <description>sect3info</description>
+    <text><![CDATA[<sect3info>
+	${1}
+</sect3info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect4</tag>
+    <description>sect4</description>
+    <text><![CDATA[<sect4 id="${1}">
+	${2}
+</sect4>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect4info</tag>
+    <description>sect4info</description>
+    <text><![CDATA[<sect4info>
+	${1}
+</sect4info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect5</tag>
+    <description>sect5</description>
+    <text><![CDATA[<sect5 id="${1}">
+	${2}
+</sect5>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sect5info</tag>
+    <description>sect5info</description>
+    <text><![CDATA[<sect5info>
+	${1}
+</sect5info>]]></text>
+  </snippet>
+  <snippet>
+    <tag>section</tag>
+    <description>section</description>
+    <text><![CDATA[<section id="${1}">
+	${2}
+</section>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sectioninfo</tag>
+    <description>sectioninfo</description>
+    <text><![CDATA[<sectioninfo>
+	${1}
+</sectioninfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>see</tag>
+    <description>see</description>
+    <text><![CDATA[<see>${1}</see>]]></text>
+  </snippet>
+  <snippet>
+    <tag>seealso</tag>
+    <description>seealso</description>
+    <text><![CDATA[<seealso>${1}</seealso>]]></text>
+  </snippet>
+  <snippet>
+    <tag>seealsoie</tag>
+    <description>seealsoie</description>
+    <text><![CDATA[<seealsoie>${1}</seealsoie>]]></text>
+  </snippet>
+  <snippet>
+    <tag>seeie</tag>
+    <description>seeie</description>
+    <text><![CDATA[<seeie>${1}</seeie>]]></text>
+  </snippet>
+  <snippet>
+    <tag>seg</tag>
+    <description>seg</description>
+    <text><![CDATA[<seg>${1}</seg>]]></text>
+  </snippet>
+  <snippet>
+    <tag>seglistitem</tag>
+    <description>seglistitem</description>
+    <text><![CDATA[<seglistitem>
+	${1}
+</seglistitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>segmentedlist</tag>
+    <description>segmentedlist</description>
+    <text><![CDATA[<segmentedlist>
+	${1}
+</segmentedlist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>segtitle</tag>
+    <description>segtitle</description>
+    <text><![CDATA[<segtitle>${1}</segtitle>]]></text>
+  </snippet>
+  <snippet>
+    <tag>seriesvolnums</tag>
+    <description>seriesvolnums</description>
+    <text><![CDATA[<seriesvolnums>${1}</seriesvolnums>]]></text>
+  </snippet>
+  <snippet>
+    <tag>set</tag>
+    <description>set</description>
+    <text><![CDATA[<set>
+	${1}
+</set>]]></text>
+  </snippet>
+  <snippet>
+    <tag>setindex</tag>
+    <description>setindex</description>
+    <text><![CDATA[<setindex>
+	${1}
+</setindex>]]></text>
+  </snippet>
+  <snippet>
+    <tag>setindexinfo</tag>
+    <description>setindexinfo</description>
+    <text><![CDATA[<setindexinfo>
+	${1}
+</setindexinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>setinfo</tag>
+    <description>setinfo</description>
+    <text><![CDATA[<setinfo>
+	${1}
+</setinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sgmltag</tag>
+    <description>sgmltag</description>
+    <text><![CDATA[<sgmltag>${1}</sgmltag>]]></text>
+  </snippet>
+  <snippet>
+    <tag>shortaffil</tag>
+    <description>shortaffil</description>
+    <text><![CDATA[<shortaffil>${1}</shortaffil>]]></text>
+  </snippet>
+  <snippet>
+    <tag>shortcut</tag>
+    <description>shortcut</description>
+    <text><![CDATA[<shortcut>${1}</shortcut>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sidebar</tag>
+    <description>sidebar</description>
+    <text><![CDATA[<sidebar>
+	${1}
+</sidebar>]]></text>
+  </snippet>
+  <snippet>
+    <tag>sidebarinfo</tag>
+    <description>sidebarinfo</description>
+    <text><![CDATA[<sidebarinfo>
+	${1}
+</sidebarinfo>]]></text>
+  </snippet>
+  <snippet>
+    <tag>simpara</tag>
+    <description>simpara</description>
+    <text><![CDATA[<simpara>
+	${1}
+</simpara>]]></text>
+  </snippet>
+  <snippet>
+    <tag>simplelist</tag>
+    <description>simplelist</description>
+    <text><![CDATA[<simplelist>
+	${1}
+</simplelist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>simplemsgentry</tag>
+    <description>simplemsgentry</description>
+    <text><![CDATA[<simplemsgentry>
+	${1}
+</simplemsgentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>simplesect</tag>
+    <description>simplesect</description>
+    <text><![CDATA[<simplesect id="${1}">
+	${2}
+</simplesect>]]></text>
+  </snippet>
+  <snippet>
+    <tag>spanspec</tag>
+    <description>spanspec</description>
+    <text><![CDATA[<spanspec spanname="${1}" namest="${2}" nameend="${3}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>state</tag>
+    <description>state</description>
+    <text><![CDATA[<state>${1}</state>]]></text>
+  </snippet>
+  <snippet>
+    <tag>step</tag>
+    <description>step</description>
+    <text><![CDATA[<step>
+	${1}
+</step>]]></text>
+  </snippet>
+  <snippet>
+    <tag>stepalternatives</tag>
+    <description>stepalternatives</description>
+    <text><![CDATA[<stepalternatives>
+	${1}
+</stepalternatives>]]></text>
+  </snippet>
+  <snippet>
+    <tag>street</tag>
+    <description>street</description>
+    <text><![CDATA[<street>${1}</street>]]></text>
+  </snippet>
+  <snippet>
+    <tag>structfield</tag>
+    <description>structfield</description>
+    <text><![CDATA[<structfield>${1}</structfield>]]></text>
+  </snippet>
+  <snippet>
+    <tag>structname</tag>
+    <description>structname</description>
+    <text><![CDATA[<structname>${1}</structname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>subject</tag>
+    <description>subject</description>
+    <text><![CDATA[<subject>
+	${1}
+</subject>]]></text>
+  </snippet>
+  <snippet>
+    <tag>subjectset</tag>
+    <description>subjectset</description>
+    <text><![CDATA[<subjectset>
+	${1}
+</subjectset>]]></text>
+  </snippet>
+  <snippet>
+    <tag>subjectterm</tag>
+    <description>subjectterm</description>
+    <text><![CDATA[<subjectterm>${1}</subjectterm>]]></text>
+  </snippet>
+  <snippet>
+    <tag>subscript</tag>
+    <description>subscript</description>
+    <text><![CDATA[<subscript>${1}</subscript>]]></text>
+  </snippet>
+  <snippet>
+    <tag>substeps</tag>
+    <description>substeps</description>
+    <text><![CDATA[<substeps>
+	${1}
+</substeps>]]></text>
+  </snippet>
+  <snippet>
+    <tag>subtitle</tag>
+    <description>subtitle</description>
+    <text><![CDATA[<subtitle>${1}</subtitle>]]></text>
+  </snippet>
+  <snippet>
+    <tag>superscript</tag>
+    <description>superscript</description>
+    <text><![CDATA[<superscript>${1}</superscript>]]></text>
+  </snippet>
+  <snippet>
+    <tag>surname</tag>
+    <description>surname</description>
+    <text><![CDATA[<surname>${1}</surname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>symbol</tag>
+    <description>symbol</description>
+    <text><![CDATA[<symbol>${1}</symbol>]]></text>
+  </snippet>
+  <snippet>
+    <tag>synopfragment</tag>
+    <description>synopfragment</description>
+    <text><![CDATA[<synopfragment id="${1}">
+	${2}
+</synopfragment>]]></text>
+  </snippet>
+  <snippet>
+    <tag>synopfragmentref</tag>
+    <description>synopfragmentref</description>
+    <text><![CDATA[<synopfragmentref linkend="${1}">
+	${2}
+</synopfragmentref>]]></text>
+  </snippet>
+  <snippet>
+    <tag>synopsis</tag>
+    <description>synopsis</description>
+    <text><![CDATA[<synopsis>${1}</synopsis>]]></text>
+  </snippet>
+  <snippet>
+    <tag>systemitem</tag>
+    <description>systemitem</description>
+    <text><![CDATA[<systemitem>${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>daemon</tag>
+    <description>systemitem, class daemon</description>
+    <text><![CDATA[<systemitem class="daemon">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>domainname</tag>
+    <description>systemitem, class domainname</description>
+    <text><![CDATA[<systemitem class="domainname">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>etheraddress</tag>
+    <description>systemitem, class etheraddress</description>
+    <text><![CDATA[<systemitem class="etheraddress">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>event</tag>
+    <description>systemitem, class event</description>
+    <text><![CDATA[<systemitem class="event">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>eventhandler</tag>
+    <description>systemitem, class eventhandler</description>
+    <text><![CDATA[<systemitem class="eventhandler">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>filesystem</tag>
+    <description>systemitem, class filesystem</description>
+    <text><![CDATA[<systemitem class="filesystem">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>fqdomainname</tag>
+    <description>systemitem, class fqdomainname</description>
+    <text><![CDATA[<systemitem class="fqdomainname">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>groupname</tag>
+    <description>systemitem, class groupname</description>
+    <text><![CDATA[<systemitem class="groupname">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>ipaddress</tag>
+    <description>systemitem, class ipaddress</description>
+    <text><![CDATA[<systemitem class="ipaddress">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>library</tag>
+    <description>systemitem, class library</description>
+    <text><![CDATA[<systemitem class="library">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>macro</tag>
+    <description>systemitem, class macro</description>
+    <text><![CDATA[<systemitem class="macro">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>netmask</tag>
+    <description>systemitem, class netmask</description>
+    <text><![CDATA[<systemitem class="netmask">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>newsgroup</tag>
+    <description>systemitem, class newsgroup</description>
+    <text><![CDATA[<systemitem class="newsgroup">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>osname</tag>
+    <description>systemitem, class osname</description>
+    <text><![CDATA[<systemitem class="osname">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>process</tag>
+    <description>systemitem, class process</description>
+    <text><![CDATA[<systemitem class="process">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>protocol</tag>
+    <description>systemitem, class protocol</description>
+    <text><![CDATA[<systemitem class="protocol">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>resource</tag>
+    <description>systemitem, class resource</description>
+    <text><![CDATA[<systemitem class="resource">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>server</tag>
+    <description>systemitem, class server</description>
+    <text><![CDATA[<systemitem class="server">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>service</tag>
+    <description>systemitem, class service</description>
+    <text><![CDATA[<systemitem class="service">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>systemname</tag>
+    <description>systemitem, class systemname</description>
+    <text><![CDATA[<systemitem class="systemname">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>username</tag>
+    <description>systemitem, class username</description>
+    <text><![CDATA[<systemitem class="username">${1}</systemitem>]]></text>
+  </snippet>
+  <snippet>
+    <tag>table</tag>
+    <description>table</description>
+    <text><![CDATA[<table id="${1}">
+	${2}
+</table>]]></text>
+  </snippet>
+  <snippet>
+    <tag>task</tag>
+    <description>task</description>
+    <text><![CDATA[<task>
+	${1}
+</task>]]></text>
+  </snippet>
+  <snippet>
+    <tag>taskprerequisites</tag>
+    <description>taskprerequisites</description>
+    <text><![CDATA[<taskprerequisites>
+	${1}
+</taskprerequisites>]]></text>
+  </snippet>
+  <snippet>
+    <tag>taskrelated</tag>
+    <description>taskrelated</description>
+    <text><![CDATA[<taskrelated>
+	${1}
+</taskrelated>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tasksummary</tag>
+    <description>tasksummary</description>
+    <text><![CDATA[<tasksummary>
+	${1}
+</tasksummary>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tbody</tag>
+    <description>tbody</description>
+    <text><![CDATA[<tbody>
+	${1}
+</tbody>]]></text>
+  </snippet>
+  <snippet>
+    <tag>td</tag>
+    <description>td</description>
+    <text><![CDATA[<td>
+	${1}
+</td>]]></text>
+  </snippet>
+  <snippet>
+    <tag>term</tag>
+    <description>term</description>
+    <text><![CDATA[<term>${1}</term>]]></text>
+  </snippet>
+  <snippet>
+    <tag>termdef</tag>
+    <description>termdef</description>
+    <text><![CDATA[<termdef>${1}</termdef>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tertiary</tag>
+    <description>tertiary</description>
+    <text><![CDATA[<tertiary>${1}</tertiary>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tertiaryie</tag>
+    <description>tertiaryie</description>
+    <text><![CDATA[<tertiaryie>${1}</tertiaryie>]]></text>
+  </snippet>
+  <snippet>
+    <tag>textdata</tag>
+    <description>textdata</description>
+    <text><![CDATA[<textdata fileref="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>textobject</tag>
+    <description>textobject</description>
+    <text><![CDATA[<textobject>
+	${1}
+</textobject>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tfoot</tag>
+    <description>tfoot</description>
+    <text><![CDATA[<tfoot>
+	${1}
+</tfoot>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tgroup</tag>
+    <description>tgroup</description>
+    <text><![CDATA[<tgroup cols="${1}">
+	${2}
+</tgroup>]]></text>
+  </snippet>
+  <snippet>
+    <tag>th</tag>
+    <description>th</description>
+    <text><![CDATA[<th>
+	${1}
+</th>]]></text>
+  </snippet>
+  <snippet>
+    <tag>thead</tag>
+    <description>thead</description>
+    <text><![CDATA[<thead>
+	${1}
+</thead>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tip</tag>
+    <description>tip</description>
+    <text><![CDATA[<tip>
+	${1}
+</tip>]]></text>
+  </snippet>
+  <snippet>
+    <tag>title</tag>
+    <description>title</description>
+    <text><![CDATA[<title>${1}</title>]]></text>
+  </snippet>
+  <snippet>
+    <tag>titleabbrev</tag>
+    <description>titleabbrev</description>
+    <text><![CDATA[<titleabbrev>${1}</titleabbrev>]]></text>
+  </snippet>
+  <snippet>
+    <tag>toc</tag>
+    <description>toc</description>
+    <text><![CDATA[<toc>
+	${1}
+</toc>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tocback</tag>
+    <description>tocback</description>
+    <text><![CDATA[<tocback linkend="${1}">${2}</tocback>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tocchap</tag>
+    <description>tocchap</description>
+    <text><![CDATA[<tocchap>
+	${1}
+</tocchap>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tocentry</tag>
+    <description>tocentry</description>
+    <text><![CDATA[<tocentry linkend="${1}">${2}</tocentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tocfront</tag>
+    <description>tocfront</description>
+    <text><![CDATA[<tocfront linkend="${1}">${2}</tocfront>]]></text>
+  </snippet>
+  <snippet>
+    <tag>toclevel1</tag>
+    <description>toclevel1</description>
+    <text><![CDATA[<toclevel1>
+	${1}
+</toclevel1>]]></text>
+  </snippet>
+  <snippet>
+    <tag>toclevel2</tag>
+    <description>toclevel2</description>
+    <text><![CDATA[<toclevel2>
+	${1}
+</toclevel2>]]></text>
+  </snippet>
+  <snippet>
+    <tag>toclevel3</tag>
+    <description>toclevel3</description>
+    <text><![CDATA[<toclevel3>
+	${1}
+</toclevel3>]]></text>
+  </snippet>
+  <snippet>
+    <tag>toclevel4</tag>
+    <description>toclevel4</description>
+    <text><![CDATA[<toclevel4>
+	${1}
+</toclevel4>]]></text>
+  </snippet>
+  <snippet>
+    <tag>toclevel5</tag>
+    <description>toclevel5</description>
+    <text><![CDATA[<toclevel5>
+	${1}
+</toclevel5>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tocpart</tag>
+    <description>tocpart</description>
+    <text><![CDATA[<tocpart>
+	${1}
+</tocpart>]]></text>
+  </snippet>
+  <snippet>
+    <tag>token</tag>
+    <description>token</description>
+    <text><![CDATA[<token>${1}</token>]]></text>
+  </snippet>
+  <snippet>
+    <tag>tr</tag>
+    <description>tr</description>
+    <text><![CDATA[<tr>
+	${1}
+</tr>]]></text>
+  </snippet>
+  <snippet>
+    <tag>trademark</tag>
+    <description>trademark</description>
+    <text><![CDATA[<trademark class="${1:trade}">${2}</trademark>]]></text>
+  </snippet>
+  <snippet>
+    <tag>type</tag>
+    <description>type</description>
+    <text><![CDATA[<type>${1}</type>]]></text>
+  </snippet>
+  <snippet>
+    <tag>ulink</tag>
+    <description>ulink</description>
+    <text><![CDATA[<ulink url="${1}">${2}</ulink>]]></text>
+  </snippet>
+  <snippet>
+    <tag>uri</tag>
+    <description>uri</description>
+    <text><![CDATA[<uri>${1}</uri>]]></text>
+  </snippet>
+  <snippet>
+    <tag>userinput</tag>
+    <description>userinput</description>
+    <text><![CDATA[<userinput>${1}</userinput>]]></text>
+  </snippet>
+  <snippet>
+    <tag>varargs</tag>
+    <description>varargs</description>
+    <text><![CDATA[<varargs />]]></text>
+  </snippet>
+  <snippet>
+    <tag>variablelist</tag>
+    <description>variablelist</description>
+    <text><![CDATA[<variablelist>
+	${1}
+</variablelist>]]></text>
+  </snippet>
+  <snippet>
+    <tag>varlistentry</tag>
+    <description>varlistentry</description>
+    <text><![CDATA[<varlistentry>
+	${1}
+</varlistentry>]]></text>
+  </snippet>
+  <snippet>
+    <tag>varname</tag>
+    <description>varname</description>
+    <text><![CDATA[<varname>${1}</varname>]]></text>
+  </snippet>
+  <snippet>
+    <tag>videodata</tag>
+    <description>videodata</description>
+    <text><![CDATA[<videodata fileref="${1}" scalefit="${2:0}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>videoobject</tag>
+    <description>videoobject</description>
+    <text><![CDATA[<videoobject>
+	${1}
+</videoobject>]]></text>
+  </snippet>
+  <snippet>
+    <tag>void</tag>
+    <description>void</description>
+    <text><![CDATA[<void />]]></text>
+  </snippet>
+  <snippet>
+    <tag>volumenum</tag>
+    <description>volumenum</description>
+    <text><![CDATA[<volumenum>${1}</volumenum>]]></text>
+  </snippet>
+  <snippet>
+    <tag>warning</tag>
+    <description>warning</description>
+    <text><![CDATA[<warning>
+	${1}
+</warning>]]></text>
+  </snippet>
+  <snippet>
+    <tag>wordasword</tag>
+    <description>wordasword</description>
+    <text><![CDATA[<wordasword>${1}</wordasword>]]></text>
+  </snippet>
+  <snippet>
+    <tag>fallback</tag>
+    <description>xi:fallback</description>
+    <text><![CDATA[<xi:fallback xmlns:xi="http://www.w3.org/2001/XInclude">
+	${1}
+</xi:fallback>]]></text>
+  </snippet>
+  <snippet>
+    <tag>include</tag>
+    <description>xi:include</description>
+    <text><![CDATA[<xi:include href="${1}.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>xml</tag>
+    <description>xml</description>
+    <text><![CDATA[<?xml version='1.0' encoding='utf-8' ?>]]></text>
+  </snippet>
+  <snippet>
+    <tag>xref</tag>
+    <description>xref</description>
+    <text><![CDATA[<xref linkend="${1}" />]]></text>
+  </snippet>
+  <snippet>
+    <tag>year</tag>
+    <description>year</description>
+    <text><![CDATA[<year>${1}</year>]]></text>
+  </snippet>
+</snippets>
